@@ -1,0 +1,337 @@
+{
+  "navigation": {
+    "brand": "RKR Epsilon",
+    "about": "About",
+    "services": "Services",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Strategic Investment.",
+    "titleAccent": "Enduring Value.",
+    "description": "RKR Epsilon provides tailored investment banking services for discerning private and institutional clients.",
+    "cta": "Learn More"
+  },
+  "intro": {
+    "title": "Financial Excellence Through Strategic Partnership",
+    "description": "RKR Epsilon combines deep industry expertise with innovative financial strategies to help businesses and individuals achieve their most ambitious goals. Our commitment to excellence and client success has made us a trusted partner in financial advisory.",
+    "stats": {
+      "experience": {
+        "value": "25+",
+        "label": "Years Experience"
+      },
+      "clients": {
+        "value": "500+",
+        "label": "Clients Served"
+      },
+      "assets": {
+        "value": "$2B+",
+        "label": "Assets Managed"
+      }
+    }
+  },
+  "services": {
+    "title": "Our Services",
+    "items": {
+      "investment": {
+        "title": "Investment Banking for Private Clients",
+        "description": "Bespoke investment strategies tailored to the unique needs and aspirations of high-net-worth individuals and families."
+      },
+      "advisory": {
+        "title": "Corporate Advisory and M&A",
+        "description": "Strategic guidance on mergers, acquisitions, and corporate restructuring with discretion and precision."
+      },
+      "asset": {
+        "title": "Asset Management",
+        "description": "Comprehensive portfolio management focused on long-term value creation and capital preservation."
+      },
+      "strategy": {
+        "title": "Financial Strategy & Market Analysis",
+        "description": "In-depth market research and strategic financial planning to navigate complex economic environments."
+      }
+    }
+  },
+  "servicesPage": {
+    "hero": {
+      "title": "Comprehensive Investment Banking Services",
+      "description": "Tailored financial solutions designed to meet the sophisticated needs of private clients and institutional investors."
+    },
+    "detail": {
+      "title": "Our Service Portfolio",
+      "subtitle": "Each service is crafted with precision and delivered with the highest standards of professionalism and discretion."
+    },
+    "services": {
+      "investment": {
+        "title": "Investment Banking for Private Clients",
+        "fullDescription": "Our private client investment banking services provide high-net-worth individuals and families with sophisticated financial strategies tailored to their unique circumstances. We combine deep market expertise with personalized attention to create investment portfolios that align with your long-term wealth preservation and growth objectives.",
+        "features": {
+          "1": "Bespoke portfolio construction and management",
+          "2": "Alternative investment opportunities and private placements",
+          "3": "Multi-generational wealth planning and family office services"
+        }
+      },
+      "advisory": {
+        "title": "Corporate Advisory and M&A",
+        "fullDescription": "Our corporate advisory team brings decades of experience in mergers, acquisitions, and strategic transactions. We provide comprehensive guidance throughout the entire deal lifecycle, from initial strategy development through post-merger integration, ensuring optimal outcomes for all stakeholders.",
+        "features": {
+          "1": "Buy-side and sell-side M&A advisory",
+          "2": "Valuation analysis and due diligence coordination",
+          "3": "Strategic restructuring and capital optimization"
+        }
+      },
+      "asset": {
+        "title": "Asset Management",
+        "fullDescription": "Our asset management approach focuses on long-term value creation through disciplined investment strategies and rigorous risk management. We construct diversified portfolios designed to preserve capital while generating sustainable returns across market cycles.",
+        "features": {
+          "1": "Active portfolio management with quarterly rebalancing",
+          "2": "ESG-integrated investment strategies",
+          "3": "Comprehensive performance reporting and transparency"
+        }
+      },
+      "strategy": {
+        "title": "Financial Strategy & Market Analysis",
+        "fullDescription": "We provide strategic financial planning and market intelligence to help clients navigate complex economic environments. Our research-driven approach combines quantitative analysis with qualitative insights to identify opportunities and mitigate risks in global markets.",
+        "features": {
+          "1": "Macroeconomic analysis and market forecasting",
+          "2": "Sector-specific research and investment themes",
+          "3": "Custom financial modeling and scenario planning"
+        }
+      }
+    }
+  },
+  "parallax": {
+    "heading": "Building Long-Term Partnerships",
+    "text": "We believe in creating lasting relationships with our clients built on trust, transparency, and mutual success. Our approach goes beyond traditional consulting—we become an extension of your team, deeply invested in achieving your financial goals and strategic vision."
+  },
+  "parallaxServices": {
+    "heading": "Excellence in Execution",
+    "text": "Our commitment to excellence extends beyond strategy to flawless execution. Every transaction, every portfolio adjustment, every client interaction is handled with meticulous attention to detail and unwavering professionalism. We don't just advise—we deliver results that exceed expectations."
+  },
+  "parallaxAbout": {
+    "heading": "A Legacy of Trust and Innovation",
+    "text": "For over two decades, RKR Epsilon has been at the forefront of investment banking innovation while maintaining the timeless values of integrity, discretion, and client-first service. Our team combines seasoned expertise with fresh perspectives to navigate the evolving financial landscape and deliver exceptional outcomes for our clients."
+  },
+  "philosophy": {
+    "title": "Our Philosophy",
+    "items": {
+      "vision": {
+        "title": "Long-Term Vision",
+        "description": "We reject short-term speculation in favor of sustainable, generational wealth creation. Our strategies are designed to weather market cycles and deliver consistent value over decades, not quarters."
+      },
+      "strategy": {
+        "title": "Disciplined Strategy",
+        "description": "Every investment decision is grounded in rigorous analysis, comprehensive due diligence, and a deep understanding of market fundamentals. We combine quantitative precision with qualitative insight to identify opportunities others overlook."
+      },
+      "service": {
+        "title": "Personalized Service",
+        "description": "No two clients are alike, and neither are our solutions. We take the time to understand your unique circumstances, goals, and values, crafting bespoke strategies that align with your vision for the future."
+      }
+    }
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "Get in Touch",
+    "description": "We welcome inquiries from prospective clients who value discretion, expertise, and a long-term partnership approach to wealth management.",
+    "address": {
+      "title": "Address",
+      "line1": "RKR Epsilon Investment Banking",
+      "line2": "Frankfurt am Main, Germany",
+      "line3": "rkr-epsilon.de"
+    },
+    "hours": {
+      "title": "Office Hours",
+      "line1": "Monday – Friday: 9:00 AM – 6:00 PM CET",
+      "line2": "By appointment only"
+    },
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "phone": "Phone",
+      "message": "Message",
+      "required": "*",
+      "submit": "Send Message"
+    }
+  },
+  "contactPage": {
+    "hero": {
+      "title": "Get in Touch",
+      "description": "We welcome inquiries from prospective clients who value discretion, expertise, and a long-term partnership approach to wealth management."
+    }
+  },
+  "footer": {
+    "copyright": "© RKR Epsilon 2025 | All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "disclosures": "Disclosures",
+    "disclaimer": "Investment Disclaimer: The information provided on this website is for informational purposes only and does not constitute financial, investment, or legal advice. Past performance is not indicative of future results. All investments carry risk, including the potential loss of principal. RKR Epsilon is not responsible for any investment decisions made based on information provided on this site. Please consult with a qualified financial advisor before making any investment decisions."
+  },
+  "cookies": {
+    "title": "We Value Your Privacy",
+    "description": "We use cookies to enhance your browsing experience, analyze site traffic, and provide personalized content. By clicking 'Accept', you consent to our use of cookies.",
+    "accept": "Accept All",
+    "decline": "Decline"
+  },
+  "comingSoon": {
+    "title": "Coming Soon",
+    "subtitle": "Something Exciting is on the Horizon",
+    "description": "We're working on something special. Enter the password to get a sneak peek.",
+    "passwordPlaceholder": "Enter password",
+    "submit": "Access",
+    "error": "Incorrect password. Please try again.",
+    "welcome": "Welcome! You now have access to our preview.",
+    "content": {
+      "title": "Exclusive Preview",
+      "description": "Thank you for your interest in RKR Epsilon. We're preparing to launch our new platform that will revolutionize investment banking services. Stay tuned for updates."
+    }
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Everything you need to know about our services",
+    "items": [
+      {
+        "question": "What services does RKR Epsilon provide?",
+        "answer": "RKR Epsilon offers comprehensive investment banking services including bespoke investment strategies for high-net-worth individuals, corporate advisory and M&A services, asset management, and financial strategy consulting. We specialize in creating tailored solutions that align with our clients' long-term financial goals."
+      },
+      {
+        "question": "Who are your typical clients?",
+        "answer": "We serve discerning private clients, high-net-worth individuals, family offices, and institutional investors who value discretion, expertise, and a long-term partnership approach. Our clients typically seek sophisticated financial strategies and personalized service that goes beyond traditional banking relationships."
+      },
+      {
+        "question": "What is your investment philosophy?",
+        "answer": "Our philosophy centers on long-term value creation rather than short-term speculation. We employ disciplined strategies grounded in rigorous analysis and comprehensive due diligence. Every investment decision is made with a focus on sustainable, generational wealth creation and capital preservation."
+      },
+      {
+        "question": "How do I get started with RKR Epsilon?",
+        "answer": "We welcome inquiries from prospective clients through our contact form or by scheduling a consultation. Our initial meetings are confidential and designed to understand your unique financial situation, goals, and values. From there, we develop a customized strategy tailored to your specific needs."
+      },
+      {
+        "question": "What makes RKR Epsilon different from other investment banks?",
+        "answer": "We distinguish ourselves through personalized service, deep industry expertise, and an unwavering commitment to our clients' long-term success. Unlike larger institutions, we maintain a boutique approach that allows us to provide dedicated attention and bespoke solutions. Our team becomes an extension of your organization, deeply invested in achieving your strategic vision."
+      },
+      {
+        "question": "What are the minimum investment requirements?",
+        "answer": "Our services are designed for clients with significant investable assets. Minimum requirements vary depending on the specific service and strategy. We encourage prospective clients to contact us directly to discuss their situation and determine if our services are a good fit."
+      },
+      {
+        "question": "How do you ensure confidentiality and security?",
+        "answer": "Discretion and security are paramount in everything we do. We employ bank-level security protocols, maintain strict confidentiality agreements, and operate under rigorous regulatory compliance standards. Your privacy and the security of your financial information are our top priorities."
+      },
+      {
+        "question": "Do you work with international clients?",
+        "answer": "Yes, we serve clients globally while maintaining our headquarters in Frankfurt am Main, Germany. Our team has extensive experience navigating international markets, cross-border transactions, and multi-jurisdictional regulatory environments."
+      }
+    ]
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "intro": "At RKR Epsilon, we are committed to protecting your privacy and ensuring the security of your personal information. This privacy policy outlines how we collect, use, and safeguard your data in accordance with applicable data protection regulations including GDPR.",
+    "dataCollection": {
+      "title": "Data Collection",
+      "content": "We collect only the information necessary to provide our services and maintain client relationships. This includes contact information, financial data relevant to our advisory services, and communication records. All data collection is conducted with your explicit consent and in compliance with applicable regulations."
+    },
+    "dataUsage": {
+      "title": "How We Use Your Data",
+      "content": "Your personal information is used exclusively to provide investment banking services, maintain client relationships, comply with regulatory requirements, and improve our service offerings. We analyze data to better understand your financial goals and provide tailored recommendations that align with your objectives."
+    },
+    "dataSecurity": {
+      "title": "Data Security",
+      "content": "We employ bank-level security protocols including encryption, secure data storage, regular security audits, and strict access controls. Your data is stored on secure servers with multiple layers of protection. We maintain comprehensive cybersecurity measures to protect against unauthorized access, disclosure, or loss of information."
+    },
+    "yourRights": {
+      "title": "Your Rights",
+      "content": "Under GDPR and applicable data protection laws, you have the right to access, correct, delete, or transfer your personal data. You may also object to certain data processing activities or request restriction of processing. To exercise these rights or for any privacy-related inquiries, please contact our data protection officer."
+    },
+    "contact": {
+      "title": "Contact Us About Privacy",
+      "content": "For detailed information about our data practices or to exercise your privacy rights, please contact our compliance team at privacy@rkr-epsilon.de or write to us at our registered office in Frankfurt am Main."
+    }
+  },
+  "privacyPage": {
+    "hero": {
+      "title": "Privacy Policy",
+      "description": "Your privacy and data security are our highest priorities. Learn how we protect and manage your personal information."
+    }
+  },
+  "terms": {
+    "title": "Terms of Service",
+    "intro": "These Terms of Service govern your use of RKR Epsilon's website and services. By accessing our website or engaging our services, you agree to be bound by these terms. Please read them carefully.",
+    "acceptance": {
+      "title": "Acceptance of Terms",
+      "content": "By accessing or using our website and services, you acknowledge that you have read, understood, and agree to be bound by these Terms of Service and our Privacy Policy. If you do not agree to these terms, please do not use our services."
+    },
+    "services": {
+      "title": "Services Description",
+      "content": "Our services are provided on an advisory basis and do not constitute a guarantee of investment performance. All investment decisions remain the sole responsibility of the client. RKR Epsilon provides professional financial advice based on thorough analysis, but past performance is not indicative of future results."
+    },
+    "limitations": {
+      "title": "Limitations of Liability",
+      "content": "RKR Epsilon operates under strict regulatory compliance and maintains professional indemnity insurance. However, we are not liable for investment losses resulting from market conditions, client decisions, or factors beyond our reasonable control. Our liability is limited to the extent permitted by applicable law."
+    },
+    "modifications": {
+      "title": "Modifications to Terms",
+      "content": "We reserve the right to modify these terms at any time, with changes becoming effective upon posting to our website. Continued use of our services after modifications constitutes acceptance of the updated terms. We will notify clients of material changes via email or through our website."
+    },
+    "contact": {
+      "title": "Questions About Terms",
+      "content": "If you have any questions about these Terms of Service, please contact our legal team at legal@rkr-epsilon.de or reach out through our contact form."
+    }
+  },
+  "termsPage": {
+    "hero": {
+      "title": "Terms of Service",
+      "description": "Important legal information governing your use of our website and services."
+    }
+  },
+  "imprint": {
+    "title": "Legal Disclosures",
+    "intro": "RKR Epsilon Investment Banking is a registered financial services provider operating under German financial regulations. This page contains our legal disclosures and regulatory information.",
+    "company": {
+      "title": "Company Information",
+      "content": "RKR Epsilon Investment Banking GmbH\nRegistered Office: Frankfurt am Main, Germany\nCommercial Register: [Registration Number]\nRegistered Court: Amtsgericht Frankfurt am Main\nManaging Directors: [Names]\nVAT ID: [VAT Number]"
+    },
+    "contactInfo": {
+      "email": {
+        "title": "Email",
+        "content": "info@rkr-epsilon.de\ncompliance@rkr-epsilon.de"
+      },
+      "phone": {
+        "title": "Phone",
+        "content": "+49 (0) 69 [Phone Number]\nMonday – Friday: 9:00 AM – 6:00 PM CET"
+      }
+    },
+    "regulatory": {
+      "title": "Regulatory Information",
+      "content": "Regulatory Authority: Bundesanstalt für Finanzdienstleistungsaufsicht (BaFin)\nMarie-Curie-Str. 24-28, 60439 Frankfurt am Main\nProfessional Indemnity Insurance: [Insurance Provider]\nLicense Number: [License Number]\n\nRKR Epsilon is authorized and regulated to provide investment banking and financial advisory services in accordance with German and European financial regulations."
+    },
+    "disclaimer": {
+      "title": "Disclaimer",
+      "content": "This website is intended for professional and institutional investors only. The information provided does not constitute financial advice or an offer to buy or sell securities. All investments carry risk, including potential loss of principal. Please consult with a qualified financial advisor before making investment decisions."
+    }
+  },
+  "imprintPage": {
+    "hero": {
+      "title": "Legal Disclosures",
+      "description": "Company information, regulatory details, and legal disclosures as required by German law."
+    }
+  },
+  "aboutPage": {
+    "hero": {
+      "title": "About RKR Epsilon",
+      "description": "A trusted partner in investment banking, dedicated to excellence, integrity, and long-term client success."
+    },
+    "story": {
+      "title": "Our Story",
+      "paragraph1": "Founded over two decades ago, RKR Epsilon was built on a simple yet powerful principle: that exceptional financial outcomes are achieved through deep client relationships, rigorous analysis, and unwavering commitment to long-term value creation.",
+      "paragraph2": "Today, we stand as a trusted partner to discerning clients worldwide, combining the personalized attention of a boutique firm with the sophisticated capabilities of a global institution."
+    },
+    "team": {
+      "title": "Our Team",
+      "paragraph1": "Our team comprises seasoned professionals with decades of combined experience across investment banking, asset management, and corporate advisory. Each member brings unique expertise and a shared commitment to client success.",
+      "paragraph2": "We believe that the strength of our firm lies in the caliber of our people—individuals who combine technical excellence with genuine care for our clients' financial well-being and strategic objectives."
+    },
+    "approach": {
+      "title": "Our Approach",
+      "paragraph1": "We take a holistic view of wealth management, considering not just financial returns but also risk management, tax efficiency, legacy planning, and alignment with your personal values and long-term vision.",
+      "paragraph2": "Every strategy we develop is grounded in comprehensive research, rigorous due diligence, and a deep understanding of global markets. We don't follow trends—we identify opportunities that others overlook."
+    }
+  }
+}

@@ -1,0 +1,93 @@
+"use client"
+
+import { useEffect, useRef } from "react"
+import { useTranslations } from "next-intl"
+import { TrendingUp, Building2, PieChart, LineChart, CheckCircle } from "lucide-react"
+
+const serviceIcons = [TrendingUp, Building2, PieChart, LineChart]
+const serviceKeys = ["investment", "advisory", "asset", "strategy"] as const
+
+export function ServicesDetailSection() {
+  const sectionRef = useRef<HTMLElement>(null)
+  const t = useTranslations("servicesPage")
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("animate-fade-in-up")
+          }
+        })
+      },
+      { threshold: 0.1 },
+    )
+
+    const elements = sectionRef.current?.querySelectorAll(".fade-in-element")
+    elements?.forEach((el) => observer.observe(el))
+
+    return () => observer.disconnect()
+  }, [])
+
+  return (
+    <section ref={sectionRef} className="py-24 md:py-32 bg-[var(--off-white)]">
+      <div className="max-w-7xl mx-auto px-6 lg:px-8">
+        <div className="text-center mb-20">
+          <h2 className="fade-in-element font-serif text-4xl md:text-5xl font-light text-[var(--navy-dark)] mb-6">
+            {t("detail.title")}
+          </h2>
+          <div className="fade-in-element w-16 h-0.5 bg-[var(--gold-accent)] mx-auto mb-6" />
+          <p className="fade-in-element text-lg text-[var(--navy-primary)]/70 max-w-3xl mx-auto">
+            {t("detail.subtitle")}
+          </p>
+        </div>
+
+        <div className="space-y-16">
+          {serviceKeys.map((key, index) => {
+            const Icon = serviceIcons[index]
+            const isEven = index % 2 === 0
+
+            return (
+              <div
+                key={key}
+                className={`fade-in-element flex flex-col ${isEven ? "md:flex-row" : "md:flex-row-reverse"} gap-8 lg:gap-12 items-center`}
+              >
+                <div className="flex-1">
+                  <div className="flex items-center gap-4 mb-6">
+                    <div className="w-16 h-16 bg-[var(--navy-dark)] flex items-center justify-center">
+                      <Icon className="w-8 h-8 text-[var(--gold-accent)]" />
+                    </div>
+                    <h3 className="font-serif text-3xl md:text-4xl font-medium text-[var(--navy-dark)]">
+                      {t(`services.${key}.title`)}
+                    </h3>
+                  </div>
+
+                  <p className="text-lg text-[var(--navy-primary)]/80 leading-relaxed mb-6">
+                    {t(`services.${key}.fullDescription`)}
+                  </p>
+
+                  <ul className="space-y-3">
+                    {[1, 2, 3].map((i) => (
+                      <li key={i} className="flex items-start gap-3">
+                        <CheckCircle className="w-5 h-5 text-[var(--gold-accent)] flex-shrink-0 mt-0.5" />
+                        <span className="text-[var(--navy-primary)]/70">{t(`services.${key}.features.${i}`)}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+
+                <div className="flex-1">
+                  <div className="relative">
+                    <div className="aspect-[4/3] bg-gradient-to-br from-[var(--navy-dark)] to-[var(--navy-light)] relative overflow-hidden rounded-xl shadow-2xl before:absolute before:inset-0 before:-z-10 before:translate-x-2 before:translate-y-2 before:bg-[var(--navy-primary)]/40 before:rounded-xl before:blur-sm after:absolute after:inset-0 after:-z-20 after:translate-x-4 after:translate-y-4 after:bg-[var(--navy-primary)]/20 after:rounded-xl after:blur-md">
+                      <div className="absolute inset-0 bg-[url('/financial-growth.jpg')] opacity-20 bg-cover bg-center" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            )
+          })}
+        </div>
+      </div>
+    </section>
+  )
+}
