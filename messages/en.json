@@ -34,6 +34,8 @@
     "statusPreIpo": "Pre-IPO",
     "industryAerospace": "Aerospace & Defense",
     "industryArtificialIntelligence": "Artificial Intelligence",
+    "industryOnlineMarketplace": "Online Marketplace",
+    "industryCryptoExchange": "Cryptocurrency Exchange",
     "spacex": {
       "description": "Space Exploration Technologies Corp. (SpaceX) is an American aerospace manufacturer and space transportation company founded by Elon Musk in 2002. The company designs, manufactures, and launches advanced rockets and spacecraft with the ultimate goal of enabling human life on Mars. SpaceX has revolutionized the space industry with its reusable rocket technology, significantly reducing the cost of space access. The company operates the Falcon 9 and Falcon Heavy rockets, the Dragon spacecraft, and is developing the Starship - a fully reusable transportation system designed for travel to Mars and beyond. SpaceX also operates Starlink, a satellite internet constellation providing high-speed internet access globally.",
       "highlights": {
@@ -62,7 +64,39 @@
         "3": "Strategic backing from Amazon and Google (multi-billion dollar investments)",
         "4": "Rapid enterprise adoption and growing developer ecosystem"
       }
+    },
+    "mobile-de": {
+      "description": "mobile.de is Germany's leading online vehicle marketplace, founded in 1996. The platform connects millions of buyers and sellers, offering a comprehensive range of new and used cars, motorcycles, and commercial vehicles. As part of the Adevinta Group, mobile.de has digitized the German automotive market and become the go-to destination for vehicle searches. With innovative features such as detailed vehicle valuations, financing options, and a trusted dealer network, mobile.de sets the standard in digital automotive commerce.",
+      "highlights": {
+        "1": "Germany's largest online vehicle marketplace with over 1.4 million listings",
+        "2": "More than 40,000 commercial dealers and millions of private sellers",
+        "3": "Market leader for over 25 years in the German automotive market",
+        "4": "Part of Adevinta Group, a leading online marketplace operator",
+        "5": "Innovative digital services including vehicle valuation and financing"
+      }
+    },
+    "kraken": {
+      "description": "Kraken is one of the largest and oldest cryptocurrency exchanges in the world, founded in 2011 in San Francisco. The platform offers trading in over 200 cryptocurrencies and is known for its high security standards and regulatory compliance. Kraken serves both retail and institutional clients, providing advanced trading tools, staking services, and futures trading. The company has established itself as a trusted partner in the crypto industry and continues to expand into new markets worldwide.",
+      "highlights": {
+        "1": "One of the oldest and most trusted crypto exchanges since 2011",
+        "2": "Trading in over 200 cryptocurrencies with numerous trading pairs",
+        "3": "Industry-leading security – never hacked in over 13 years of operation",
+        "4": "Strong regulatory compliance with licenses in multiple jurisdictions",
+        "5": "Comprehensive services: spot trading, futures, staking, and NFT marketplace"
+      }
     }
+  },
+  "ipoPage": {
+    "badge": "Exclusive Investment Opportunities",
+    "title": "Pre-IPO Investments",
+    "description": "Gain early access to promising companies before their public listing. Our carefully selected Pre-IPO opportunities give you the chance to invest in leading companies before they become publicly traded.",
+    "availableTitle": "Available Pre-IPO Investments",
+    "availableSubtitle": "Discover our current investment opportunities and learn more about each company.",
+    "currentPrice": "Current Price",
+    "viewDetails": "View Details",
+    "ctaTitle": "Interested in Pre-IPO Investments?",
+    "ctaDescription": "Contact us for personalized advice on our exclusive investment opportunities.",
+    "ctaButton": "Get in Touch"
   },
   "navigation": {
     "brand": "RKR Epsilon",

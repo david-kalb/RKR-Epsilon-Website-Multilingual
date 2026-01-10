@@ -34,6 +34,8 @@
     "statusPreIpo": "Pre-IPO",
     "industryAerospace": "Luft- und Raumfahrt",
     "industryArtificialIntelligence": "Künstliche Intelligenz",
+    "industryOnlineMarketplace": "Online-Marktplatz",
+    "industryCryptoExchange": "Kryptowährungsbörse",
     "spacex": {
       "description": "Space Exploration Technologies Corp. (SpaceX) ist ein amerikanischer Luft- und Raumfahrthersteller und Raumtransportunternehmen, das 2002 von Elon Musk gegründet wurde. Das Unternehmen entwickelt, fertigt und startet fortschrittliche Raketen und Raumfahrzeuge mit dem ultimativen Ziel, menschliches Leben auf dem Mars zu ermöglichen. SpaceX hat die Raumfahrtindustrie mit seiner wiederverwendbaren Raketentechnologie revolutioniert und die Kosten für den Weltraumzugang erheblich gesenkt. Das Unternehmen betreibt die Raketen Falcon 9 und Falcon Heavy, das Raumschiff Dragon und entwickelt das Starship – ein vollständig wiederverwendbares Transportsystem für Reisen zum Mars und darüber hinaus. SpaceX betreibt auch Starlink, eine Satelliten-Internet-Konstellation, die weltweit Hochgeschwindigkeits-Internetzugang bietet.",
       "highlights": {
@@ -62,7 +64,39 @@
         "3": "Strategische Unterstützung von Amazon und Google (mehrere Milliarden Dollar Investitionen)",
         "4": "Schnelle Unternehmensadoption und wachsendes Entwickler-Ökosystem"
       }
+    },
+    "mobile-de": {
+      "description": "mobile.de ist Deutschlands führender Online-Marktplatz für Fahrzeuge, gegründet 1996. Die Plattform verbindet Millionen von Käufern und Verkäufern und bietet ein umfassendes Angebot an Neu- und Gebrauchtwagen, Motorrädern und Nutzfahrzeugen. Als Teil der Adevinta-Gruppe hat mobile.de den deutschen Automobilmarkt digitalisiert und ist zur ersten Anlaufstelle für Fahrzeugsuche geworden. Mit innovativen Features wie detaillierten Fahrzeugbewertungen, Finanzierungsoptionen und einem vertrauenswürdigen Händlernetzwerk setzt mobile.de Maßstäbe im digitalen Automobilhandel.",
+      "highlights": {
+        "1": "Deutschlands größter Online-Fahrzeugmarktplatz mit über 1,4 Millionen Angeboten",
+        "2": "Mehr als 40.000 gewerbliche Händler und Millionen privater Verkäufer",
+        "3": "Marktführer seit über 25 Jahren im deutschen Automobilmarkt",
+        "4": "Teil der Adevinta-Gruppe, einem führenden Online-Marktplatz-Betreiber",
+        "5": "Innovative digitale Services wie Fahrzeugbewertung und Finanzierung"
+      }
+    },
+    "kraken": {
+      "description": "Kraken ist eine der größten und ältesten Kryptowährungsbörsen der Welt, gegründet 2011 in San Francisco. Die Plattform bietet den Handel mit über 200 Kryptowährungen und ist bekannt für ihre hohen Sicherheitsstandards und regulatorische Compliance. Kraken bedient sowohl Privatanleger als auch institutionelle Kunden und bietet fortgeschrittene Handelstools, Staking-Services und Futures-Handel. Das Unternehmen hat sich als vertrauenswürdiger Partner in der Kryptoindustrie etabliert und expandiert kontinuierlich in neue Märkte weltweit.",
+      "highlights": {
+        "1": "Eine der ältesten und vertrauenswürdigsten Kryptobörsen seit 2011",
+        "2": "Handel mit über 200 Kryptowährungen und zahlreichen Handelspaaren",
+        "3": "Führend bei Sicherheit – noch nie gehackt in über 13 Jahren Betrieb",
+        "4": "Starke regulatorische Compliance mit Lizenzen in mehreren Jurisdiktionen",
+        "5": "Umfassende Services: Spot-Handel, Futures, Staking und NFT-Marktplatz"
+      }
     }
+  },
+  "ipoPage": {
+    "badge": "Exklusive Investmentmöglichkeiten",
+    "title": "Pre-IPO Investments",
+    "description": "Erhalten Sie frühzeitigen Zugang zu vielversprechenden Unternehmen vor ihrem Börsengang. Unsere sorgfältig ausgewählten Pre-IPO-Möglichkeiten bieten Ihnen die Chance, in führende Unternehmen zu investieren, bevor sie öffentlich gehandelt werden.",
+    "availableTitle": "Verfügbare Pre-IPO Investments",
+    "availableSubtitle": "Entdecken Sie unsere aktuellen Investmentmöglichkeiten und erfahren Sie mehr über jedes Unternehmen.",
+    "currentPrice": "Aktueller Preis",
+    "viewDetails": "Details ansehen",
+    "ctaTitle": "Interesse an Pre-IPO Investments?",
+    "ctaDescription": "Kontaktieren Sie uns für eine persönliche Beratung zu unseren exklusiven Investmentmöglichkeiten.",
+    "ctaButton": "Kontakt aufnehmen"
   },
   "navigation": {
     "brand": "RKR Epsilon",
