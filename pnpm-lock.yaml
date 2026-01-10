@@ -126,7 +126,7 @@ importers:
         specifier: 16.1.1
         version: 16.1.1(react-dom@19.2.3(react@19.2.3))(react@19.2.3)
       next-intl:
-        specifier: latest
+        specifier: ^4.7.0
         version: 4.7.0(next@16.1.1(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(react@19.2.3)(typescript@5.9.3)
       next-themes:
         specifier: latest
