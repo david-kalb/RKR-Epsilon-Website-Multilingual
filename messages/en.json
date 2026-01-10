@@ -29,7 +29,17 @@
     "current": "Open Now",
     "upcoming": "Upcoming",
     "closed": "Closed",
-    "disclaimer": "This information is provided for informational purposes only and does not constitute financial advice or an offer to buy or sell securities. IPO details are subject to change. Past performance is not indicative of future results. Please consult with a qualified financial advisor before making investment decisions."
+    "disclaimer": "This information is provided for informational purposes only and does not constitute financial advice or an offer to buy or sell securities. IPO details are subject to change. Past performance is not indicative of future results. Please consult with a qualified financial advisor before making investment decisions.",
+    "spacex": {
+      "description": "Space Exploration Technologies Corp. (SpaceX) is an American aerospace manufacturer and space transportation company founded by Elon Musk in 2002. The company designs, manufactures, and launches advanced rockets and spacecraft with the ultimate goal of enabling human life on Mars. SpaceX has revolutionized the space industry with its reusable rocket technology, significantly reducing the cost of space access. The company operates the Falcon 9 and Falcon Heavy rockets, the Dragon spacecraft, and is developing the Starship - a fully reusable transportation system designed for travel to Mars and beyond. SpaceX also operates Starlink, a satellite internet constellation providing high-speed internet access globally.",
+      "highlights": {
+        "1": "World's first orbital-class reusable rockets",
+        "2": "Over 250 successful Falcon 9 launches",
+        "3": "Starlink as primary revenue growth driver",
+        "4": "NASA partnership for crew missions to ISS",
+        "5": "Starship: Next-gen fully reusable spacecraft"
+      }
+    }
   },
   "navigation": {
     "brand": "RKR Epsilon",

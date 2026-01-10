@@ -13,7 +13,7 @@
     "financials": "Wichtige Finanzkennzahlen",
     "revenue": "Umsatz",
     "revenueGrowth": "Umsatzwachstum",
-    "netIncome": "Nettoergebnis",
+    "netIncome": "Netto Einnahmen",
     "employees": "Mitarbeiter",
     "overview": "Unternehmensübersicht",
     "highlights": "Wichtige Highlights",
@@ -29,7 +29,17 @@
     "current": "Jetzt offen",
     "upcoming": "Kommend",
     "closed": "Geschlossen",
-    "disclaimer": "Diese Informationen dienen ausschließlich zu Informationszwecken und stellen keine Finanzberatung oder ein Angebot zum Kauf oder Verkauf von Wertpapieren dar. IPO-Details können sich ändern. Die Wertentwicklung in der Vergangenheit ist kein verlässlicher Indikator für zukünftige Ergebnisse. Bitte konsultieren Sie einen qualifizierten Finanzberater, bevor Sie Anlageentscheidungen treffen."
+    "disclaimer": "Diese Informationen dienen ausschließlich zu Informationszwecken und stellen keine Finanzberatung oder ein Angebot zum Kauf oder Verkauf von Wertpapieren dar. IPO-Details können sich ändern. Die Wertentwicklung in der Vergangenheit ist kein verlässlicher Indikator für zukünftige Ergebnisse. Bitte konsultieren Sie einen qualifizierten Finanzberater, bevor Sie Anlageentscheidungen treffen.",
+    "spacex": {
+      "description": "Space Exploration Technologies Corp. (SpaceX) ist ein amerikanischer Luft- und Raumfahrthersteller und Raumtransportunternehmen, das 2002 von Elon Musk gegründet wurde. Das Unternehmen entwickelt, fertigt und startet fortschrittliche Raketen und Raumfahrzeuge mit dem ultimativen Ziel, menschliches Leben auf dem Mars zu ermöglichen. SpaceX hat die Raumfahrtindustrie mit seiner wiederverwendbaren Raketentechnologie revolutioniert und die Kosten für den Weltraumzugang erheblich gesenkt. Das Unternehmen betreibt die Raketen Falcon 9 und Falcon Heavy, das Raumschiff Dragon und entwickelt das Starship – ein vollständig wiederverwendbares Transportsystem für Reisen zum Mars und darüber hinaus. SpaceX betreibt auch Starlink, eine Satelliten-Internet-Konstellation, die weltweit Hochgeschwindigkeits-Internetzugang bietet.",
+      "highlights": {
+        "1": "Weltweit erste wiederverwendbare Orbitalraketen",
+        "2": "Über 250 erfolgreiche Falcon 9-Starts",
+        "3": "Starlink als primärer Umsatzwachstumstreiber",
+        "4": "NASA-Partnerschaft für Crew-Missionen zur ISS",
+        "5": "Starship: Vollständig wiederverwendbares Raumschiff der nächsten Generation"
+      }
+    }
   },
   "navigation": {
     "brand": "RKR Epsilon",

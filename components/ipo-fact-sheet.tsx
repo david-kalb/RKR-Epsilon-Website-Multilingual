@@ -35,6 +35,7 @@ type PricePhase = {
 
 type IpoData = {
   name: string
+  slug: string
   ticker: string
   industry: string
   exchange: string
@@ -44,14 +45,13 @@ type IpoData = {
   priceRange: string
   sharesOffered: string
   underwriters: string[]
-  description: string
   financials: {
-    revenue: string
-    revenueGrowth: string
-    netIncome: string
-    employees: string
+    revenue: string | number
+    revenueGrowth: string | number
+    netIncome: string | number
+    employees: string | number
   }
-  highlights: string[]
+  highlightsCount: number
   founded: string
   headquarters: string
   ceo: string
@@ -73,6 +73,45 @@ const formatPrice = (price: number | null): string => {
     minimumFractionDigits: 2,
     maximumFractionDigits: 2
   }) + ' €'
+}
+
+// Format price for chart display without thousand separators and decimals
+const formatChartPrice = (price: number | null): string => {
+  if (price === null || price === undefined) {
+    return 'TBD'
+  }
+  return Math.round(price) + ' €'
+}
+
+// Format currency values (revenue, net income) with Mrd./Mio. abbreviations
+const formatCurrency = (value: string | number): string => {
+  if (typeof value === 'string') return value
+  
+  const absValue = Math.abs(value)
+  
+  if (absValue >= 1_000_000_000) {
+    // Milliarden (Billions)
+    const mrd = value / 1_000_000_000
+    return mrd.toLocaleString('de-DE', { maximumFractionDigits: 1 }) + ' Mrd. €'
+  } else if (absValue >= 1_000_000) {
+    // Millionen (Millions)
+    const mio = value / 1_000_000
+    return mio.toLocaleString('de-DE', { maximumFractionDigits: 1 }) + ' Mio. €'
+  } else {
+    return value.toLocaleString('de-DE') + ' €'
+  }
+}
+
+// Format percentage values
+const formatPercentage = (value: string | number): string => {
+  if (typeof value === 'string') return value
+  return value.toLocaleString('de-DE') + '%'
+}
+
+// Format number with thousand separators (for employees, etc.)
+const formatNumber = (value: string | number): string => {
+  if (typeof value === 'string') return value
+  return value.toLocaleString('de-DE')
 }
 
 export function IpoFactSheet({ ipo, locale }: Props) {
@@ -162,7 +201,7 @@ export function IpoFactSheet({ ipo, locale }: Props) {
               </h2>
               <div className="fade-in-element w-16 h-0.5 bg-[var(--gold-accent)] mb-8" />
               <p className="fade-in-element text-lg text-[var(--navy-primary)]/80 leading-relaxed">
-                {ipo.description}
+                {t(`${ipo.slug}.description`)}
               </p>
               
               {/* Highlights */}
@@ -171,10 +210,10 @@ export function IpoFactSheet({ ipo, locale }: Props) {
                   {t("highlights")}
                 </h3>
                 <ul className="space-y-4">
-                  {ipo.highlights.map((highlight, index) => (
+                  {Array.from({ length: ipo.highlightsCount }, (_, index) => (
                     <li key={index} className="fade-in-element flex items-start gap-3">
                       <CheckCircle className="w-5 h-5 text-[var(--gold-accent)] flex-shrink-0 mt-1" />
-                      <span className="text-[var(--navy-primary)]/80">{highlight}</span>
+                      <span className="text-[var(--navy-primary)]/80">{t(`${ipo.slug}.highlights.${index + 1}`)}</span>
                     </li>
                   ))}
                 </ul>
@@ -272,7 +311,7 @@ export function IpoFactSheet({ ipo, locale }: Props) {
                 <DollarSign className="w-7 h-7 text-[var(--gold-accent)]" />
               </div>
               <p className="text-white/60 text-sm uppercase tracking-wider mb-2">{t("revenue")}</p>
-              <p className="text-white text-3xl font-light">{ipo.financials.revenue}</p>
+              <p className="text-white text-3xl font-light">{formatCurrency(ipo.financials.revenue)}</p>
             </div>
             
             <div className="fade-in-element bg-gradient-to-br from-[var(--navy-dark)] to-[var(--navy-primary)] p-8 rounded-2xl text-center">
@@ -280,7 +319,7 @@ export function IpoFactSheet({ ipo, locale }: Props) {
                 <TrendingUp className="w-7 h-7 text-[var(--gold-accent)]" />
               </div>
               <p className="text-white/60 text-sm uppercase tracking-wider mb-2">{t("revenueGrowth")}</p>
-              <p className="text-white text-3xl font-light">{ipo.financials.revenueGrowth}</p>
+              <p className="text-white text-3xl font-light">{formatPercentage(ipo.financials.revenueGrowth)}</p>
             </div>
             
             <div className="fade-in-element bg-gradient-to-br from-[var(--navy-dark)] to-[var(--navy-primary)] p-8 rounded-2xl text-center">
@@ -288,7 +327,7 @@ export function IpoFactSheet({ ipo, locale }: Props) {
                 <BarChart3 className="w-7 h-7 text-[var(--gold-accent)]" />
               </div>
               <p className="text-white/60 text-sm uppercase tracking-wider mb-2">{t("netIncome")}</p>
-              <p className="text-white text-3xl font-light">{ipo.financials.netIncome}</p>
+              <p className="text-white text-3xl font-light">{formatCurrency(ipo.financials.netIncome)}</p>
             </div>
             
             <div className="fade-in-element bg-gradient-to-br from-[var(--navy-dark)] to-[var(--navy-primary)] p-8 rounded-2xl text-center">
@@ -296,7 +335,7 @@ export function IpoFactSheet({ ipo, locale }: Props) {
                 <Users className="w-7 h-7 text-[var(--gold-accent)]" />
               </div>
               <p className="text-white/60 text-sm uppercase tracking-wider mb-2">{t("employees")}</p>
-              <p className="text-white text-3xl font-light">{ipo.financials.employees}</p>
+              <p className="text-white text-3xl font-light">{formatNumber(ipo.financials.employees)}</p>
             </div>
           </div>
         </div>
@@ -354,7 +393,7 @@ export function IpoFactSheet({ ipo, locale }: Props) {
                       axisLine={false}
                       tickLine={false}
                       tick={{ fill: '#1B2B4B', fontSize: 12, opacity: 0.7 }}
-                      tickFormatter={(value) => formatPrice(value)}
+                      tickFormatter={(value) => formatChartPrice(value)}
                       dx={-10}
                       domain={[0, 'auto']}
                     />
@@ -387,7 +426,7 @@ export function IpoFactSheet({ ipo, locale }: Props) {
                                 )}
                               </div>
                               <p className="text-2xl font-light">
-                                {formatPrice(data.price)}
+                                {formatChartPrice(data.price)}
                               </p>
                               <p className="text-white/60 text-sm mt-1">
                                 {data.timing}
@@ -476,9 +515,9 @@ export function IpoFactSheet({ ipo, locale }: Props) {
                         ? 'bg-gray-400'
                         : 'bg-[var(--navy-dark)]/40 border-2 border-dashed border-[var(--navy-dark)]/60'
                     }`} />
-                    <span className={`text-sm ${status === 'closed' ? 'text-gray-500' : 'text-[var(--navy-dark)]'}`}>
-                      <span className="font-medium">{item.phase}:</span> {formatPrice(item.price)}
-                    </span>
+<span className={`text-sm ${status === 'closed' ? 'text-gray-500' : 'text-[var(--navy-dark)]'}`}>
+                                      <span className="font-medium">{item.phase}:</span> {formatChartPrice(item.price)}
+                                    </span>
                     {status === 'current' && (
                       <span className="text-xs px-2 py-0.5 bg-[var(--gold-accent)] text-[var(--navy-dark)] font-medium rounded">
                         {t("current")}

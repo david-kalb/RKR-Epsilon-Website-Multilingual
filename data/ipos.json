@@ -1,39 +1,35 @@
 {
   "spacex": {
     "name": "SpaceX",
+    "slug": "spacex",
     "ticker": "SPACEX",
     "industry": "Aerospace & Defense",
-    "exchange": "NYSE / NASDAQ",
-    "expectedDate": "Mid–Late 2026",
+    "exchange": "NASDAQ",
+    "expectedDate": "2026",
     "status": "Pre-IPO",
-    "valuation": "$800B - $1.5T",
-    "priceRange": "Not disclosed",
+    "valuation": "~ 1.5Mrd. €",
+    "priceRange": "75€ - 85€",
     "sharesOffered": "Not disclosed",
     "underwriters": ["Goldman Sachs", "Morgan Stanley", "J.P. Morgan"],
-    "description": "Space Exploration Technologies Corp. (SpaceX) is an American aerospace manufacturer and space transportation company founded by Elon Musk in 2002. The company designs, manufactures, and launches advanced rockets and spacecraft with the ultimate goal of enabling human life on Mars. SpaceX has revolutionized the space industry with its reusable rocket technology, significantly reducing the cost of space access. The company operates the Falcon 9 and Falcon Heavy rockets, the Dragon spacecraft, and is developing the Starship - a fully reusable transportation system designed for travel to Mars and beyond. SpaceX also operates Starlink, a satellite internet constellation providing high-speed internet access globally.",
     "financials": {
       "revenue": 22000000000,
       "revenueGrowth": 45,
       "netIncome": 2000000000,
       "employees": 13000
     },
-    "highlights": [
-      "World's first orbital-class reusable rockets",
-      "Over 250 successful Falcon 9 launches",
-      "Starlink as primary revenue growth driver",
-      "NASA partnership for crew missions to ISS",
-      "Starship: Next-gen fully reusable spacecraft"
-    ],
+    "highlightsCount": 5,
     "founded": "2002",
     "headquarters": "Hawthorne, California, USA",
     "ceo": "Elon Musk",
     "website": "spacex.com",
     "pricePhases": [
-      { "phase": "Early Access", "price": null, "timing": "Not publicly available" },
-      { "phase": "Pre-IPO Round 1", "price": null, "timing": "Private market only" },
-      { "phase": "Pre-IPO Round 2", "price": null, "timing": "Private market only" },
-      { "phase": "Final Pre-IPO", "price": null, "timing": "Pre-IPO period" },
-      { "phase": "IPO Target", "price": null, "timing": "Late 2026" }
+      { "phase": "Early Access", "price": 32, "timing": "Limited Availability", "isCurrent": true },
+      { "phase": "Seed Pre-IPO", "price": 40, "timing": "Q1 2026" },
+      { "phase": "Pre-IPO Round 1", "price": 50, "timing": "Q1 2026" },
+      { "phase": "Pre-IPO Round 2", "price": 62, "timing": "Q2 2026" },
+      { "phase": "Late Pre-IPO", "price": 71, "timing": "Q3 2026" },
+      { "phase": "Final Pre-IPO", "price": 78, "timing": "Q3 2026" },
+      { "phase": "IPO Target", "price": 85, "timing": "Q4 2026" }
     ]
   }
 }
