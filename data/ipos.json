@@ -3,13 +3,13 @@
     "name": "SpaceX",
     "slug": "spacex",
     "ticker": "SPACEX",
-    "industry": "Aerospace & Defense",
+    "industryKey": "industryAerospace",
     "exchange": "NASDAQ",
     "expectedDate": "2026",
-    "status": "Pre-IPO",
+    "statusKey": "statusPreIpo",
     "valuation": "~ 1.5Mrd. €",
     "priceRange": "75€ - 85€",
-    "sharesOffered": "Not disclosed",
+    "sharesOfferedKey": "notDisclosed",
     "underwriters": ["Goldman Sachs", "Morgan Stanley", "J.P. Morgan"],
     "financials": {
       "revenue": 22000000000,
@@ -30,6 +30,137 @@
       { "phase": "Late Pre-IPO", "price": 71, "timing": "Q3 2026" },
       { "phase": "Final Pre-IPO", "price": 78, "timing": "Q3 2026" },
       { "phase": "IPO Target", "price": 85, "timing": "Q4 2026" }
+    ]
+  },
+  "mobilede": {
+    "name": "mobile.de",
+    "slug": "mobile-de",
+    "ticker": "MOBILE",
+    "industryKey": "industryOnlineMarketplace",
+    "exchange": "XETRA",
+    "expectedDate": "2026",
+    "statusKey": "statusPreIpo",
+    "valuation": "~ 6Mrd. €",
+    "priceRange": "22€ - 28€",
+    "sharesOfferedKey": "notDisclosed",
+    "underwriters": ["Deutsche Bank", "Goldman Sachs"],
+    "financials": {
+      "revenue": 650000000,
+      "revenueGrowth": 12,
+      "netIncome": 180000000,
+      "employees": 1200
+    },
+    "highlightsCount": 5,
+    "founded": "1996",
+    "headquarters": "Dreieich, Germany",
+    "ceo": "Martin Weiss",
+    "website": "mobile.de",
+    "pricePhases": [
+      { "phase": "Early Access", "price": 14, "timing": "Limited Availability", "isCurrent": true },
+      { "phase": "Seed Pre-IPO", "price": 17, "timing": "Early 2025" },
+      { "phase": "Pre-IPO Round 1", "price": 20, "timing": "Mid 2025" },
+      { "phase": "Pre-IPO Round 2", "price": 22, "timing": "Late 2025" },
+      { "phase": "Late Pre-IPO", "price": 24, "timing": "Early 2026" },
+      { "phase": "Final Pre-IPO", "price": 26, "timing": "Mid 2026" },
+      { "phase": "IPO Target", "price": 28, "timing": "Late 2026" }
+    ]
+  },
+  "kraken": {
+    "name": "Kraken",
+    "slug": "kraken",
+    "ticker": "KRAKEN",
+    "industryKey": "industryCryptoExchange",
+    "exchange": "NASDAQ",
+    "expectedDate": "2026",
+    "statusKey": "statusPreIpo",
+    "valuation": "~ 15Mrd. €",
+    "priceRange": "28€ - 35€",
+    "sharesOfferedKey": "notDisclosed",
+    "underwriters": ["J.P. Morgan", "Goldman Sachs"],
+    "financials": {
+      "revenue": 1200000000,
+      "revenueGrowth": 35,
+      "netIncome": 150000000,
+      "employees": 3000
+    },
+    "highlightsCount": 5,
+    "founded": "2011",
+    "headquarters": "San Francisco, California, USA",
+    "ceo": "Dave Ripley",
+    "website": "kraken.com",
+    "pricePhases": [
+      { "phase": "Early Access", "price": 14, "timing": "Limited Availability", "isCurrent": true },
+      { "phase": "Seed Pre-IPO", "price": 18, "timing": "Early 2025" },
+      { "phase": "Pre-IPO Round 1", "price": 22, "timing": "Mid 2025" },
+      { "phase": "Pre-IPO Round 2", "price": 26, "timing": "Late 2025" },
+      { "phase": "Late Pre-IPO", "price": 30, "timing": "Early 2026" },
+      { "phase": "Final Pre-IPO", "price": 33, "timing": "Mid 2026" },
+      { "phase": "IPO Target", "price": 35, "timing": "Late 2026" }
+    ]
+  },
+  "anthropic": {
+    "name": "Anthropic",
+    "slug": "anthropic",
+    "ticker": "ANTH",
+    "industryKey": "industryArtificialIntelligence",
+    "exchange": "NYSE / NASDAQ",
+    "expectedDate": "2026–2027",
+    "statusKey": "statusPreIpo",
+    "valuation": "~ 40-60 Mrd. €",
+    "priceRange": "TBD",
+    "sharesOfferedKey": "notDisclosed",
+    "underwriters": ["Goldman Sachs", "Morgan Stanley"],
+    "financials": {
+      "revenue": 2000000000,
+      "revenueGrowth": 100,
+      "netIncome": -500000000,
+      "employees": 1000
+    },
+    "highlightsCount": 4,
+    "founded": "2021",
+    "headquarters": "San Francisco, California, USA",
+    "ceo": "Dario Amodei",
+    "website": "anthropic.com",
+    "pricePhases": [
+      { "phase": "Seed Stage", "price": null, "timing": "Founding round" },
+      { "phase": "Series A–C", "price": null, "timing": "Early venture rounds" },
+      { "phase": "Strategic AI Partnerships", "price": null, "timing": "Amazon / Google investments", "isCurrent": true },
+      { "phase": "Late Private Rounds", "price": null, "timing": "Growth capital" },
+      { "phase": "Pre-IPO", "price": null, "timing": "Private market" },
+      { "phase": "IPO Target", "price": null, "timing": "2026–2027" }
+    ]
+  },
+  "openai": {
+    "name": "OpenAI",
+    "slug": "openai",
+    "ticker": "OPENAI",
+    "industryKey": "industryArtificialIntelligence",
+    "exchange": "NASDAQ",
+    "expectedDate": "2027",
+    "statusKey": "statusPreIpo",
+    "valuation": "~ 80Mrd. €",
+    "priceRange": "60€ - 75€",
+    "sharesOfferedKey": "notDisclosed",
+    "underwriters": ["Morgan Stanley", "Goldman Sachs"],
+    "financials": {
+      "revenue": 5500000000,
+      "revenueGrowth": 70,
+      "netIncome": -1500000000,
+      "employees": 2000
+    },
+    "highlightsCount": 5,
+    "founded": "2015",
+    "headquarters": "San Francisco, California, USA",
+    "ceo": "Sam Altman",
+    "website": "openai.com",
+    "pricePhases": [
+      { "phase": "Early Access", "price": 22, "timing": "Limited Availability", "isCurrent": true },
+      { "phase": "Seed Pre-IPO", "price": 30, "timing": "Early 2026" },
+      { "phase": "Pre-IPO Round 1", "price": 40, "timing": "Mid 2026" },
+      { "phase": "Pre-IPO Round 2", "price": 50, "timing": "Late 2026" },
+      { "phase": "Late Pre-IPO", "price": 58, "timing": "Early 2027" },
+      { "phase": "Final Pre-IPO", "price": 65, "timing": "Mid 2027" },
+      { "phase": "IPO Target", "price": 75, "timing": "Late 2027" }
     ]
   }
 }

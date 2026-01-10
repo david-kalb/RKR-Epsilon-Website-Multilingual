@@ -12,12 +12,28 @@ export function LanguageSwitcher() {
   const pathname = usePathname()
 
   const currentLocale = (params.locale as "en" | "de") || "en"
-  const currentSlug = (params.slug as string) || "home"
 
   const switchLanguage = () => {
     const targetLocale = currentLocale === "en" ? "de" : "en"
+    
+    // Handle IPO pages - pathname is like /ipo/dragonfly
+    if (pathname.startsWith("/ipo/")) {
+      router.push(pathname, { locale: targetLocale })
+      return
+    }
+    
+    // Handle root path - redirect to home slug
+    if (pathname === "/" || pathname === "") {
+      const homeSlug = targetLocale === "en" ? "home" : "startseite"
+      router.push(`/${homeSlug}`, { locale: targetLocale })
+      return
+    }
+    
+    // Handle slug-based pages - pathname is like /about-us or /ueber-uns
+    // Extract the slug from pathname (remove leading slash)
+    const currentSlug = pathname.startsWith("/") ? pathname.slice(1) : pathname
     const targetSlug = getAlternateSlug(currentSlug, currentLocale, targetLocale)
-
+    
     router.push(`/${targetSlug}`, { locale: targetLocale })
   }
 

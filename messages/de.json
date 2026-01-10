@@ -30,6 +30,10 @@
     "upcoming": "Kommend",
     "closed": "Geschlossen",
     "disclaimer": "Diese Informationen dienen ausschließlich zu Informationszwecken und stellen keine Finanzberatung oder ein Angebot zum Kauf oder Verkauf von Wertpapieren dar. IPO-Details können sich ändern. Die Wertentwicklung in der Vergangenheit ist kein verlässlicher Indikator für zukünftige Ergebnisse. Bitte konsultieren Sie einen qualifizierten Finanzberater, bevor Sie Anlageentscheidungen treffen.",
+    "notDisclosed": "Nicht veröffentlicht",
+    "statusPreIpo": "Pre-IPO",
+    "industryAerospace": "Luft- und Raumfahrt",
+    "industryArtificialIntelligence": "Künstliche Intelligenz",
     "spacex": {
       "description": "Space Exploration Technologies Corp. (SpaceX) ist ein amerikanischer Luft- und Raumfahrthersteller und Raumtransportunternehmen, das 2002 von Elon Musk gegründet wurde. Das Unternehmen entwickelt, fertigt und startet fortschrittliche Raketen und Raumfahrzeuge mit dem ultimativen Ziel, menschliches Leben auf dem Mars zu ermöglichen. SpaceX hat die Raumfahrtindustrie mit seiner wiederverwendbaren Raketentechnologie revolutioniert und die Kosten für den Weltraumzugang erheblich gesenkt. Das Unternehmen betreibt die Raketen Falcon 9 und Falcon Heavy, das Raumschiff Dragon und entwickelt das Starship – ein vollständig wiederverwendbares Transportsystem für Reisen zum Mars und darüber hinaus. SpaceX betreibt auch Starlink, eine Satelliten-Internet-Konstellation, die weltweit Hochgeschwindigkeits-Internetzugang bietet.",
       "highlights": {
@@ -38,6 +42,25 @@
         "3": "Starlink als primärer Umsatzwachstumstreiber",
         "4": "NASA-Partnerschaft für Crew-Missionen zur ISS",
         "5": "Starship: Vollständig wiederverwendbares Raumschiff der nächsten Generation"
+      }
+    },
+    "openai": {
+      "description": "OpenAI ist ein amerikanisches Unternehmen für künstliche Intelligenz, das 2015 gegründet wurde und sich der Entwicklung und dem verantwortungsvollen Einsatz von allgemeiner künstlicher Intelligenz (AGI) widmet. Das Unternehmen hat bahnbrechende KI-Systeme entwickelt, darunter die GPT-Sprachmodellreihe und DALL-E für Bilderzeugung. OpenAI's Produkte wie ChatGPT haben die Art und Weise revolutioniert, wie Menschen mit KI interagieren, und werden weltweit von Millionen Nutzern und Unternehmen eingesetzt. Das Unternehmen verfolgt einen einzigartigen Ansatz, der kommerzielle Aktivitäten mit seiner gemeinnützigen Mission verbindet, sicherzustellen, dass AGI der gesamten Menschheit zugutekommt.",
+      "highlights": {
+        "1": "Entwickler von ChatGPT mit über 100 Millionen aktiven Nutzern",
+        "2": "Führend in der Entwicklung großer Sprachmodelle (GPT-4, GPT-4o)",
+        "3": "Strategische Partnerschaft mit Microsoft (mehre Milliarden Dollar Investition)",
+        "4": "DALL-E und Sora: Bahnbrechende KI für Bild- und Videoerzeugung",
+        "5": "Pionier bei KI-Sicherheit und verantwortungsvoller KI-Entwicklung"
+      }
+    },
+    "anthropic": {
+      "description": "Anthropic ist ein KI-Sicherheits- und Forschungsunternehmen, das 2021 gegründet wurde und sich auf die Entwicklung zuverlässiger, interpretierbarer und steuerbarer großer Sprachmodelle konzentriert. Das Unternehmen ist vor allem für die Claude-Familie von KI-Assistenten bekannt, die mit Sicherheit als Kernprinzip entwickelt wurden. Gegründet von ehemaligen OpenAI-Forschern, darunter Dario und Daniela Amodei, hat Anthropic Constitutional AI und andere Techniken zur Entwicklung vertrauenswürdigerer KI-Systeme pioniert. Das Unternehmen hat bedeutende Investitionen von großen Technologieunternehmen wie Amazon und Google angezogen und positioniert sich damit als Schlüsselakteur im Wettlauf um die Entwicklung nützlicher KI.",
+      "highlights": {
+        "1": "Claude-Familie großer Sprachmodelle mit branchenführender Sicherheit",
+        "2": "Starker Fokus auf KI-Sicherheit, Alignment und Interpretierbarkeit",
+        "3": "Strategische Unterstützung von Amazon und Google (mehrere Milliarden Dollar Investitionen)",
+        "4": "Schnelle Unternehmensadoption und wachsendes Entwickler-Ökosystem"
       }
     }
   },

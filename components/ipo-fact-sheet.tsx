@@ -37,13 +37,13 @@ type IpoData = {
   name: string
   slug: string
   ticker: string
-  industry: string
+  industryKey: string
   exchange: string
   expectedDate: string
-  status: string
+  statusKey: string
   valuation: string
   priceRange: string
-  sharesOffered: string
+  sharesOfferedKey: string
   underwriters: string[]
   financials: {
     revenue: string | number
@@ -153,7 +153,7 @@ export function IpoFactSheet({ ipo, locale }: Props) {
             <div className="fade-in-element inline-flex items-center gap-2 bg-[var(--gold-accent)]/20 border border-[var(--gold-accent)]/30 px-4 py-2 rounded-full mb-6">
               <span className="w-2 h-2 bg-[var(--gold-accent)] rounded-full animate-pulse" />
               <span className="text-[var(--gold-accent)] text-sm font-medium tracking-wide uppercase">
-                {ipo.status}
+                {t(ipo.statusKey)}
               </span>
             </div>
             
@@ -243,7 +243,7 @@ export function IpoFactSheet({ ipo, locale }: Props) {
                     </div>
                     <div>
                       <p className="text-sm text-[var(--navy-primary)]/60">{t("industry")}</p>
-                      <p className="font-medium text-[var(--navy-dark)]">{ipo.industry}</p>
+                      <p className="font-medium text-[var(--navy-dark)]">{t(ipo.industryKey)}</p>
                     </div>
                   </div>
                   
@@ -570,7 +570,7 @@ export function IpoFactSheet({ ipo, locale }: Props) {
                 </div>
                 <div className="flex justify-between items-center pb-4 border-b border-[var(--navy-primary)]/10">
                   <span className="text-[var(--navy-primary)]/70">{t("sharesOffered")}</span>
-                  <span className="font-medium text-[var(--navy-dark)]">{ipo.sharesOffered}</span>
+                  <span className="font-medium text-[var(--navy-dark)]">{t(ipo.sharesOfferedKey)}</span>
                 </div>
                 <div className="flex justify-between items-center pb-4 border-b border-[var(--navy-primary)]/10">
                   <span className="text-[var(--navy-primary)]/70">{t("valuation")}</span>

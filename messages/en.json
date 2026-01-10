@@ -30,6 +30,10 @@
     "upcoming": "Upcoming",
     "closed": "Closed",
     "disclaimer": "This information is provided for informational purposes only and does not constitute financial advice or an offer to buy or sell securities. IPO details are subject to change. Past performance is not indicative of future results. Please consult with a qualified financial advisor before making investment decisions.",
+    "notDisclosed": "Not disclosed",
+    "statusPreIpo": "Pre-IPO",
+    "industryAerospace": "Aerospace & Defense",
+    "industryArtificialIntelligence": "Artificial Intelligence",
     "spacex": {
       "description": "Space Exploration Technologies Corp. (SpaceX) is an American aerospace manufacturer and space transportation company founded by Elon Musk in 2002. The company designs, manufactures, and launches advanced rockets and spacecraft with the ultimate goal of enabling human life on Mars. SpaceX has revolutionized the space industry with its reusable rocket technology, significantly reducing the cost of space access. The company operates the Falcon 9 and Falcon Heavy rockets, the Dragon spacecraft, and is developing the Starship - a fully reusable transportation system designed for travel to Mars and beyond. SpaceX also operates Starlink, a satellite internet constellation providing high-speed internet access globally.",
       "highlights": {
@@ -38,6 +42,25 @@
         "3": "Starlink as primary revenue growth driver",
         "4": "NASA partnership for crew missions to ISS",
         "5": "Starship: Next-gen fully reusable spacecraft"
+      }
+    },
+    "openai": {
+      "description": "OpenAI is an American artificial intelligence company founded in 2015, dedicated to developing and responsibly deploying artificial general intelligence (AGI). The company has created groundbreaking AI systems including the GPT series of language models and DALL-E for image generation. OpenAI's products like ChatGPT have revolutionized how people interact with AI, being used by millions of users and businesses worldwide. The company pursues a unique approach combining commercial activities with its nonprofit mission to ensure AGI benefits all of humanity.",
+      "highlights": {
+        "1": "Developer of ChatGPT with over 100 million active users",
+        "2": "Leader in large language model development (GPT-4, GPT-4o)",
+        "3": "Strategic partnership with Microsoft (multi-billion dollar investment)",
+        "4": "DALL-E and Sora: Groundbreaking AI for image and video generation",
+        "5": "Pioneer in AI safety and responsible AI development"
+      }
+    },
+    "anthropic": {
+      "description": "Anthropic is an AI safety and research company founded in 2021, focused on developing reliable, interpretable, and steerable large language models. The company is best known for the Claude family of AI assistants, which are designed with safety as a core principle. Founded by former OpenAI researchers including Dario and Daniela Amodei, Anthropic has pioneered Constitutional AI and other techniques for building more trustworthy AI systems. The company has attracted significant investment from major tech companies including Amazon and Google, positioning it as a key player in the race to develop beneficial AI.",
+      "highlights": {
+        "1": "Claude large language model family with industry-leading safety",
+        "2": "Strong focus on AI safety, alignment, and interpretability",
+        "3": "Strategic backing from Amazon and Google (multi-billion dollar investments)",
+        "4": "Rapid enterprise adoption and growing developer ecosystem"
       }
     }
   },
