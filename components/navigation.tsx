@@ -6,6 +6,7 @@ import { Link } from "@/i18n/routing"
 import { useParams, usePathname } from "next/navigation"
 import { getSlugFromPageKey } from "@/config/slugs"
 import { LanguageSwitcher } from "./language-switcher"
+import Image from "next/image"
 
 export function Navigation() {
   const [isScrolled, setIsScrolled] = useState(false)
@@ -44,9 +45,15 @@ export function Navigation() {
             href={`/${navSlugs.home}`}
             className="flex items-center space-x-2 group cursor-pointer"
           >
-            <span className="font-serif text-2xl font-semibold text-[#f8f7f4] tracking-wide transition-all duration-300 group-hover:text-[#c9a961] group-hover:scale-105 group-hover:drop-shadow-[0_0_8px_rgba(201,169,97,0.5)]">
-              {t("brand")}
-            </span>
+            <div className="relative h-12 w-40 transition-all duration-300 group-hover:scale-105 group-hover:drop-shadow-[0_0_12px_rgba(201,169,97,0.5)]">
+              <Image
+                src="/RKR Logo Stacked White.png"
+                alt="RKR Epsilon"
+                fill
+                className="object-contain"
+                priority
+              />
+            </div>
           </Link>
 
           <div className="hidden md:flex items-center space-x-8">

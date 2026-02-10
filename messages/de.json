@@ -232,9 +232,9 @@
     "description": "Wir freuen uns über Anfragen von potenziellen Kunden, die Wert auf Diskretion, Expertise und einen langfristigen Partnerschaftsansatz im Vermögensmanagement legen.",
     "address": {
       "title": "Adresse",
-      "line1": "RKR Epsilon Investment Banking",
-      "line2": "Frankfurt am Main, Deutschland",
-      "line3": "rkr-epsilon.de"
+      "line1": "RKR Epsilon Ltd.",
+      "line2": "Frankfurt Tower 185, Friedrich Ebert Anlage 35-38",
+      "line3": "60307 Frankfurt am Main, Deutschland"
     },
     "hours": {
       "title": "Bürozeiten",
@@ -341,7 +341,7 @@
     },
     "contact": {
       "title": "Datenschutz-Kontakt",
-      "content": "Für detaillierte Informationen über unsere Datenpraktiken oder zur Ausübung Ihrer Datenschutzrechte kontaktieren Sie bitte unser Compliance-Team unter privacy@rkr-epsilon.de oder schreiben Sie uns an unseren eingetragenen Sitz in Frankfurt am Main."
+      "content": "Für detaillierte Informationen über unsere Datenpraktiken oder zur Ausübung Ihrer Datenschutzrechte kontaktieren Sie bitte unser Compliance-Team unter privacy@rkr-epsilon.com oder schreiben Sie uns an unseren eingetragenen Sitz in Frankfurt am Main."
     }
   },
   "privacyPage": {
@@ -371,7 +371,7 @@
     },
     "contact": {
       "title": "Fragen zu den Bedingungen",
-      "content": "Wenn Sie Fragen zu diesen Nutzungsbedingungen haben, kontaktieren Sie bitte unser Rechtsteam unter legal@rkr-epsilon.de oder nutzen Sie unser Kontaktformular."
+      "content": "Wenn Sie Fragen zu diesen Nutzungsbedingungen haben, kontaktieren Sie bitte unser Rechtsteam unter legal@rkr-epsilon.com oder nutzen Sie unser Kontaktformular."
     }
   },
   "termsPage": {
@@ -382,24 +382,28 @@
   },
   "imprint": {
     "title": "Impressum",
-    "intro": "RKR Epsilon Investment Banking ist ein registrierter Finanzdienstleister, der nach deutschen Finanzvorschriften tätig ist. Diese Seite enthält unsere gesetzlich vorgeschriebenen Angaben und regulatorischen Informationen.",
+    "intro": "RKR Epsilon ist ein registrierter Finanzdienstleister, der nach deutschen Finanzvorschriften tätig ist. Diese Seite enthält unsere gesetzlich vorgeschriebenen Angaben und regulatorischen Informationen.",
     "company": {
       "title": "Unternehmensinformationen",
-      "content": "RKR Epsilon Investment Banking GmbH\nSitz der Gesellschaft: Frankfurt am Main, Deutschland\nHandelsregister: [Registrierungsnummer]\nRegistergericht: Amtsgericht Frankfurt am Main\nGeschäftsführer: [Namen]\nUSt-IdNr.: [USt-ID]"
+      "content": "RKR Epsilon Ltd.\nFrankfurt Tower 185\nFriedrich Ebert Anlage 35-38\n60307 Frankfurt am Main\nDeutschland"
     },
     "contactInfo": {
       "email": {
         "title": "E-Mail",
-        "content": "info@rkr-epsilon.de\ncompliance@rkr-epsilon.de"
+        "content": "info@rkr-epsilon.com\ncompliance@rkr-epsilon.com"
       },
       "phone": {
         "title": "Telefon",
-        "content": "+49 (0) 69 [Telefonnummer]\nMontag – Freitag: 9:00 – 18:00 Uhr MEZ"
+        "content": "Montag – Freitag: 9:00 – 18:00 Uhr MEZ"
       }
     },
     "regulatory": {
       "title": "Regulatorische Informationen",
-      "content": "Aufsichtsbehörde: Bundesanstalt für Finanzdienstleistungsaufsicht (BaFin)\nMarie-Curie-Str. 24-28, 60439 Frankfurt am Main\nBerufshaftpflichtversicherung: [Versicherungsanbieter]\nLizenznummer: [Lizenznummer]\n\nRKR Epsilon ist autorisiert und reguliert, Investment-Banking- und Finanzberatungsdienstleistungen gemäß deutschen und europäischen Finanzvorschriften anzubieten."
+      "content": "Aufsichtsbehörde: Bundesanstalt für Finanzdienstleistungsaufsicht (BaFin)\nMarie-Curie-Str. 24-28, 60439 Frankfurt am Main",
+      "bafin_registration_label": "BaFin-Registrierung:",
+      "bafin_link_text": "BaFin-Registrierung ansehen",
+      "bafin_link_url": "https://tinyurl.com/34wr5us4",
+      "content_continued": "BaFin-ID: 40025581\nBak Nr.: 153269\n\nRKR Epsilon ist autorisiert und reguliert, Investment-Banking- und Finanzberatungsdienstleistungen gemäß deutschen und europäischen Finanzvorschriften anzubieten."
     },
     "disclaimer": {
       "title": "Haftungsausschluss",

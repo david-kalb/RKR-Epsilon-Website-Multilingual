@@ -7,10 +7,14 @@
     "exchange": "NASDAQ",
     "expectedDate": "2026",
     "statusKey": "statusPreIpo",
-    "valuation": "~ 1.5Mrd. €",
+    "valuation": "~ 1.5B. €",
     "priceRange": "75€ - 85€",
     "sharesOfferedKey": "notDisclosed",
-    "underwriters": ["Goldman Sachs", "Morgan Stanley", "J.P. Morgan"],
+    "underwriters": [
+      "Goldman Sachs",
+      "Morgan Stanley",
+      "J.P. Morgan"
+    ],
     "financials": {
       "revenue": 22000000000,
       "revenueGrowth": 45,
@@ -23,18 +27,47 @@
     "ceo": "Elon Musk",
     "website": "spacex.com",
     "pricePhases": [
-      { "phase": "Early Access", "price": 32, "timing": "Limited Availability", "isCurrent": true },
-      { "phase": "Seed Pre-IPO", "price": 40, "timing": "Q1 2026" },
-      { "phase": "Pre-IPO Round 1", "price": 50, "timing": "Q1 2026" },
-      { "phase": "Pre-IPO Round 2", "price": 62, "timing": "Q2 2026" },
-      { "phase": "Late Pre-IPO", "price": 71, "timing": "Q3 2026" },
-      { "phase": "Final Pre-IPO", "price": 78, "timing": "Q3 2026" },
-      { "phase": "IPO Target", "price": 85, "timing": "Q4 2026" }
+      {
+        "phase": "Early Access",
+        "price": 32,
+        "timing": "Limited Availability",
+        "isCurrent": true
+      },
+      {
+        "phase": "Seed Pre-IPO",
+        "price": 40,
+        "timing": "Q1 2026"
+      },
+      {
+        "phase": "Pre-IPO Round 1",
+        "price": 50,
+        "timing": "Q1 2026"
+      },
+      {
+        "phase": "Pre-IPO Round 2",
+        "price": 62,
+        "timing": "Q2 2026"
+      },
+      {
+        "phase": "Late Pre-IPO",
+        "price": 71,
+        "timing": "Q3 2026"
+      },
+      {
+        "phase": "Final Pre-IPO",
+        "price": 78,
+        "timing": "Q3 2026"
+      },
+      {
+        "phase": "IPO Target",
+        "price": 85,
+        "timing": "Q4 2026"
+      }
     ]
   },
   "mobilede": {
     "name": "mobile.de",
-    "slug": "mobile-de",
+    "slug": "mobilede",
     "ticker": "MOBILE",
     "industryKey": "industryOnlineMarketplace",
     "exchange": "XETRA",
@@ -43,7 +76,10 @@
     "valuation": "~ 6Mrd. €",
     "priceRange": "22€ - 28€",
     "sharesOfferedKey": "notDisclosed",
-    "underwriters": ["Deutsche Bank", "Goldman Sachs"],
+    "underwriters": [
+      "Deutsche Bank",
+      "Goldman Sachs"
+    ],
     "financials": {
       "revenue": 650000000,
       "revenueGrowth": 12,
@@ -56,13 +92,42 @@
     "ceo": "Martin Weiss",
     "website": "mobile.de",
     "pricePhases": [
-      { "phase": "Early Access", "price": 14, "timing": "Limited Availability", "isCurrent": true },
-      { "phase": "Seed Pre-IPO", "price": 17, "timing": "Early 2025" },
-      { "phase": "Pre-IPO Round 1", "price": 20, "timing": "Mid 2025" },
-      { "phase": "Pre-IPO Round 2", "price": 22, "timing": "Late 2025" },
-      { "phase": "Late Pre-IPO", "price": 24, "timing": "Early 2026" },
-      { "phase": "Final Pre-IPO", "price": 26, "timing": "Mid 2026" },
-      { "phase": "IPO Target", "price": 28, "timing": "Late 2026" }
+      {
+        "phase": "Early Access",
+        "price": 14,
+        "timing": "Q1 2026",
+        "isCurrent": true
+      },
+      {
+        "phase": "Seed Pre-IPO",
+        "price": 17,
+        "timing": "Q1 2026"
+      },
+      {
+        "phase": "Pre-IPO Round 1",
+        "price": 20,
+        "timing": "Q2 2026"
+      },
+      {
+        "phase": "Pre-IPO Round 2",
+        "price": 22,
+        "timing": "Q2 2026"
+      },
+      {
+        "phase": "Late Pre-IPO",
+        "price": 24,
+        "timing": "Q3 2026"
+      },
+      {
+        "phase": "Final Pre-IPO",
+        "price": 26,
+        "timing": "Q3 2026"
+      },
+      {
+        "phase": "IPO Target",
+        "price": 28,
+        "timing": "Q4 2026"
+      }
     ]
   },
   "kraken": {
@@ -76,7 +141,10 @@
     "valuation": "~ 15Mrd. €",
     "priceRange": "28€ - 35€",
     "sharesOfferedKey": "notDisclosed",
-    "underwriters": ["J.P. Morgan", "Goldman Sachs"],
+    "underwriters": [
+      "J.P. Morgan",
+      "Goldman Sachs"
+    ],
     "financials": {
       "revenue": 1200000000,
       "revenueGrowth": 35,
@@ -89,13 +157,42 @@
     "ceo": "Dave Ripley",
     "website": "kraken.com",
     "pricePhases": [
-      { "phase": "Early Access", "price": 14, "timing": "Limited Availability", "isCurrent": true },
-      { "phase": "Seed Pre-IPO", "price": 18, "timing": "Early 2025" },
-      { "phase": "Pre-IPO Round 1", "price": 22, "timing": "Mid 2025" },
-      { "phase": "Pre-IPO Round 2", "price": 26, "timing": "Late 2025" },
-      { "phase": "Late Pre-IPO", "price": 30, "timing": "Early 2026" },
-      { "phase": "Final Pre-IPO", "price": 33, "timing": "Mid 2026" },
-      { "phase": "IPO Target", "price": 35, "timing": "Late 2026" }
+      {
+        "phase": "Early Access",
+        "price": 14,
+        "timing": "Q1 2026",
+        "isCurrent": true
+      },
+      {
+        "phase": "Seed Pre-IPO",
+        "price": 18,
+        "timing": "Q1 2026"
+      },
+      {
+        "phase": "Pre-IPO Round 1",
+        "price": 22,
+        "timing": "Q2 2026"
+      },
+      {
+        "phase": "Pre-IPO Round 2",
+        "price": 26,
+        "timing": "Q2 2026"
+      },
+      {
+        "phase": "Late Pre-IPO",
+        "price": 30,
+        "timing": "Q3 2026"
+      },
+      {
+        "phase": "Final Pre-IPO",
+        "price": 33,
+        "timing": "Q3 2026"
+      },
+      {
+        "phase": "IPO Target",
+        "price": 35,
+        "timing": "Q4 2026"
+      }
     ]
   },
   "anthropic": {
@@ -109,7 +206,10 @@
     "valuation": "~ 40-60 Mrd. €",
     "priceRange": "TBD",
     "sharesOfferedKey": "notDisclosed",
-    "underwriters": ["Goldman Sachs", "Morgan Stanley"],
+    "underwriters": [
+      "Goldman Sachs",
+      "Morgan Stanley"
+    ],
     "financials": {
       "revenue": 2000000000,
       "revenueGrowth": 100,
@@ -122,12 +222,12 @@
     "ceo": "Dario Amodei",
     "website": "anthropic.com",
     "pricePhases": [
-      { "phase": "Seed Stage", "price": null, "timing": "Founding round" },
-      { "phase": "Series A–C", "price": null, "timing": "Early venture rounds" },
-      { "phase": "Strategic AI Partnerships", "price": null, "timing": "Amazon / Google investments", "isCurrent": true },
-      { "phase": "Late Private Rounds", "price": null, "timing": "Growth capital" },
-      { "phase": "Pre-IPO", "price": null, "timing": "Private market" },
-      { "phase": "IPO Target", "price": null, "timing": "2026–2027" }
+      { "phase": "Seed Stage", "price": 6, "timing": "Q1 2026", "isCurrent": true },
+      { "phase": "Series A–C", "price": 9, "timing": "Q1–Q2 2026" },
+      { "phase": "Strategic AI Partnerships", "price": 12, "timing": "Q2 2026" },
+      { "phase": "Late Private Rounds", "price": 15, "timing": "Q3 2026" },
+      { "phase": "Pre-IPO", "price": 17, "timing": "Q3 2026" },
+      { "phase": "IPO Target", "price": 19, "timing": "Q4 2026" }
     ]
   },
   "openai": {
@@ -138,10 +238,13 @@
     "exchange": "NASDAQ",
     "expectedDate": "2027",
     "statusKey": "statusPreIpo",
-    "valuation": "~ 80Mrd. €",
+    "valuation": "~ 800Mrd. €",
     "priceRange": "60€ - 75€",
     "sharesOfferedKey": "notDisclosed",
-    "underwriters": ["Morgan Stanley", "Goldman Sachs"],
+    "underwriters": [
+      "Morgan Stanley",
+      "Goldman Sachs"
+    ],
     "financials": {
       "revenue": 5500000000,
       "revenueGrowth": 70,
@@ -154,13 +257,42 @@
     "ceo": "Sam Altman",
     "website": "openai.com",
     "pricePhases": [
-      { "phase": "Early Access", "price": 22, "timing": "Limited Availability", "isCurrent": true },
-      { "phase": "Seed Pre-IPO", "price": 30, "timing": "Early 2026" },
-      { "phase": "Pre-IPO Round 1", "price": 40, "timing": "Mid 2026" },
-      { "phase": "Pre-IPO Round 2", "price": 50, "timing": "Late 2026" },
-      { "phase": "Late Pre-IPO", "price": 58, "timing": "Early 2027" },
-      { "phase": "Final Pre-IPO", "price": 65, "timing": "Mid 2027" },
-      { "phase": "IPO Target", "price": 75, "timing": "Late 2027" }
+      {
+        "phase": "Early Access",
+        "price": 22,
+        "timing": "Limited Availability",
+        "isCurrent": true
+      },
+      {
+        "phase": "Seed Pre-IPO",
+        "price": 30,
+        "timing": "Early 2026"
+      },
+      {
+        "phase": "Pre-IPO Round 1",
+        "price": 40,
+        "timing": "Mid 2026"
+      },
+      {
+        "phase": "Pre-IPO Round 2",
+        "price": 50,
+        "timing": "Late 2026"
+      },
+      {
+        "phase": "Late Pre-IPO",
+        "price": 58,
+        "timing": "Early 2027"
+      },
+      {
+        "phase": "Final Pre-IPO",
+        "price": 65,
+        "timing": "Mid 2027"
+      },
+      {
+        "phase": "IPO Target",
+        "price": 75,
+        "timing": "Late 2027"
+      }
     ]
   }
 }

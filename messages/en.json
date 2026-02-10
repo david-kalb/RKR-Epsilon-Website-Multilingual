@@ -232,9 +232,9 @@
     "description": "We welcome inquiries from prospective clients who value discretion, expertise, and a long-term partnership approach to wealth management.",
     "address": {
       "title": "Address",
-      "line1": "RKR Epsilon Investment Banking",
-      "line2": "Frankfurt am Main, Germany",
-      "line3": "rkr-epsilon.de"
+      "line1": "RKR Epsilon Ltd.",
+      "line2": "Frankfurt Tower 185, Friedrich Ebert Anlage 35-38",
+      "line3": "60307 Frankfurt am Main, Germany"
     },
     "hours": {
       "title": "Office Hours",
@@ -341,7 +341,7 @@
     },
     "contact": {
       "title": "Contact Us About Privacy",
-      "content": "For detailed information about our data practices or to exercise your privacy rights, please contact our compliance team at privacy@rkr-epsilon.de or write to us at our registered office in Frankfurt am Main."
+      "content": "For detailed information about our data practices or to exercise your privacy rights, please contact our compliance team at privacy@rkr-epsilon.com or write to us at our registered office in Frankfurt am Main."
     }
   },
   "privacyPage": {
@@ -371,7 +371,7 @@
     },
     "contact": {
       "title": "Questions About Terms",
-      "content": "If you have any questions about these Terms of Service, please contact our legal team at legal@rkr-epsilon.de or reach out through our contact form."
+      "content": "If you have any questions about these Terms of Service, please contact our legal team at legal@rkr-epsilon.com or reach out through our contact form."
     }
   },
   "termsPage": {
@@ -382,24 +382,28 @@
   },
   "imprint": {
     "title": "Legal Disclosures",
-    "intro": "RKR Epsilon Investment Banking is a registered financial services provider operating under German financial regulations. This page contains our legal disclosures and regulatory information.",
+    "intro": "RKR Epsilon is a registered financial services provider operating under German financial regulations. This page contains our legal disclosures and regulatory information.",
     "company": {
       "title": "Company Information",
-      "content": "RKR Epsilon Investment Banking GmbH\nRegistered Office: Frankfurt am Main, Germany\nCommercial Register: [Registration Number]\nRegistered Court: Amtsgericht Frankfurt am Main\nManaging Directors: [Names]\nVAT ID: [VAT Number]"
+      "content": "RKR Epsilon Ltd.\nFrankfurt Tower 185\nFriedrich Ebert Anlage 35-38\n60307 Frankfurt am Main\nGermany"
     },
     "contactInfo": {
       "email": {
         "title": "Email",
-        "content": "info@rkr-epsilon.de\ncompliance@rkr-epsilon.de"
+        "content": "info@rkr-epsilon.com\ncompliance@rkr-epsilon.com"
       },
       "phone": {
         "title": "Phone",
-        "content": "+49 (0) 69 [Phone Number]\nMonday – Friday: 9:00 AM – 6:00 PM CET"
+        "content": "Monday – Friday: 9:00 AM – 6:00 PM CET"
       }
     },
     "regulatory": {
       "title": "Regulatory Information",
-      "content": "Regulatory Authority: Bundesanstalt für Finanzdienstleistungsaufsicht (BaFin)\nMarie-Curie-Str. 24-28, 60439 Frankfurt am Main\nProfessional Indemnity Insurance: [Insurance Provider]\nLicense Number: [License Number]\n\nRKR Epsilon is authorized and regulated to provide investment banking and financial advisory services in accordance with German and European financial regulations."
+      "content": "Regulatory Authority: Bundesanstalt für Finanzdienstleistungsaufsicht (BaFin)\nMarie-Curie-Str. 24-28, 60439 Frankfurt am Main",
+      "bafin_registration_label": "BaFin Registration:",
+      "bafin_link_text": "View BaFin Registration",
+      "bafin_link_url": "https://tinyurl.com/34wr5us4",
+      "content_continued": "BaFin ID: 40025581\nBak No.: 153269\n\nRKR Epsilon is authorized and regulated to provide investment banking and financial advisory services in accordance with German and European financial regulations."
     },
     "disclaimer": {
       "title": "Disclaimer",

@@ -5,36 +5,37 @@ import { notFound } from "next/navigation"
 import type { Metadata } from "next"
 import iposData from "@/data/ipos.json"
 
-type PriceHistoryItem = {
-  date: string
-  valuation: number
-  label: string
+type PricePhase = {
+  phase: string
+  price: number | null
+  timing: string
+  isCurrent?: boolean
 }
 
 type IpoData = {
   name: string
+  slug: string
   ticker: string
-  industry: string
+  industryKey: string
   exchange: string
   expectedDate: string
-  status: string
+  statusKey: string
   valuation: string
   priceRange: string
-  sharesOffered: string
+  sharesOfferedKey: string
   underwriters: string[]
-  description: string
   financials: {
-    revenue: string
-    revenueGrowth: string
-    netIncome: string
-    employees: string
+    revenue: string | number
+    revenueGrowth: string | number
+    netIncome: string | number
+    employees: string | number
   }
-  highlights: string[]
+  highlightsCount: number
   founded: string
   headquarters: string
   ceo: string
   website: string
-  priceHistory?: PriceHistoryItem[]
+  pricePhases?: PricePhase[]
 }
 
 type IposDataType = Record<string, IpoData>

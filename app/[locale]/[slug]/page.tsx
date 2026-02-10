@@ -111,7 +111,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const title = meta.title[locale]
   const description = meta.description[locale]
 
-  return {
+  // Add noindex for imprint/disclosure pages
+  const metadata: Metadata = {
     title,
     description,
     openGraph: {
@@ -132,6 +133,16 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       },
     },
   }
+
+  // Make imprint page noindex
+  if (pageKey === "imprint") {
+    metadata.robots = {
+      index: false,
+      follow: false,
+    }
+  }
+
+  return metadata
 }
 
 export async function generateStaticParams() {

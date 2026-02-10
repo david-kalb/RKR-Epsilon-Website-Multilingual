@@ -60,9 +60,21 @@ export function ImprintSection() {
               <Shield className="w-6 h-6 text-[var(--gold-accent)] mt-1 flex-shrink-0" />
               <div>
                 <h2 className="font-serif text-2xl font-bold text-[var(--navy-dark)] mb-3">{t("regulatory.title")}</h2>
-                <p className="text-[var(--foreground)]/80 leading-relaxed whitespace-pre-line">
-                  {t("regulatory.content")}
-                </p>
+                <div className="text-[var(--foreground)]/80 leading-relaxed">
+                  <p className="whitespace-pre-line">{t("regulatory.content")}</p>
+                  <p className="mt-4">
+                    {t("regulatory.bafin_registration_label")}{" "}
+                    <a 
+                      href={t("regulatory.bafin_link_url")} 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="text-[var(--gold-accent)] hover:underline"
+                    >
+                      {t("regulatory.bafin_link_text")}
+                    </a>
+                  </p>
+                  <p className="whitespace-pre-line mt-4">{t("regulatory.content_continued")}</p>
+                </div>
               </div>
             </div>
           </div>
