@@ -18,6 +18,7 @@ import { AboutDetailSection } from "@/components/about-detail-section"
 import { PrivacyPageHero } from "@/components/privacy-page-hero"
 import { TermsPageHero } from "@/components/terms-page-hero"
 import { ImprintPageHero } from "@/components/imprint-page-hero"
+import { TeamSection } from "@/components/team-section"
 import { getPageKeyFromSlug, slugMap, type PageKey } from "@/config/slugs"
 import { notFound } from "next/navigation"
 import type { Metadata } from "next"
@@ -189,6 +190,7 @@ export default async function Page({ params }: Props) {
         <Navigation />
         <AboutPageHero />
         <AboutDetailSection />
+        <TeamSection />
         <IntroSection />
         <PhilosophySection />
         <ParallaxSection namespace="parallaxAbout" />
