@@ -2,10 +2,18 @@
 
 import { useEffect, useRef } from "react"
 import { useTranslations } from "next-intl"
+import Image from "next/image"
 import { TrendingUp, Building2, PieChart, LineChart, CheckCircle } from "lucide-react"
 
 const serviceIcons = [TrendingUp, Building2, PieChart, LineChart]
 const serviceKeys = ["investment", "advisory", "asset", "strategy"] as const
+
+const serviceImages: Record<(typeof serviceKeys)[number], string> = {
+  investment: "/business-meeting.jpg",
+  advisory: "/images/consultation.jpg",
+  asset: "/financial-data-analysis.jpg",
+  strategy: "/strategic-planning.jpg",
+}
 
 export function ServicesDetailSection() {
   const sectionRef = useRef<HTMLElement>(null)
@@ -77,10 +85,14 @@ export function ServicesDetailSection() {
                 </div>
 
                 <div className="flex-1">
-                  <div className="relative">
-                    <div className="aspect-[4/3] bg-gradient-to-br from-[var(--navy-dark)] to-[var(--navy-light)] relative overflow-hidden rounded-xl shadow-2xl before:absolute before:inset-0 before:-z-10 before:translate-x-2 before:translate-y-2 before:bg-[var(--navy-primary)]/40 before:rounded-xl before:blur-sm after:absolute after:inset-0 after:-z-20 after:translate-x-4 after:translate-y-4 after:bg-[var(--navy-primary)]/20 after:rounded-xl after:blur-md">
-                      <div className="absolute inset-0 bg-[url('/financial-growth.jpg')] opacity-20 bg-cover bg-center" />
-                    </div>
+                  <div className="relative aspect-[4/3] rounded-xl overflow-hidden shadow-2xl ring-1 ring-[var(--navy-dark)]/10">
+                    <Image
+                      src={serviceImages[key]}
+                      alt={t(`services.${key}.title`)}
+                      fill
+                      className="object-cover"
+                      sizes="(max-width: 768px) 100vw, 50vw"
+                    />
                   </div>
                 </div>
               </div>
