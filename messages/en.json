@@ -207,7 +207,7 @@
   },
   "parallaxAbout": {
     "heading": "A Legacy of Trust and Innovation",
-    "text": "For over two decades, RKR Epsilon has been at the forefront of investment banking innovation while maintaining the timeless values of integrity, discretion, and client-first service. Our team combines seasoned expertise with fresh perspectives to navigate the evolving financial landscape and deliver exceptional outcomes for our clients."
+    "text": "Since 2017, RKR Epsilon has been at the forefront of investment banking innovation while maintaining the timeless values of integrity, discretion, and client-first service. Our team combines seasoned expertise with fresh perspectives to navigate the evolving financial landscape and deliver exceptional outcomes for our clients."
   },
   "philosophy": {
     "title": "Our Philosophy",
@@ -234,7 +234,11 @@
       "title": "Address",
       "line1": "RKR Epsilon Ltd.",
       "line2": "Frankfurt Tower 185, Friedrich Ebert Anlage 35-38",
-      "line3": "60307 Frankfurt am Main, Germany"
+      "line3": "60327 Frankfurt am Main, Germany"
+    },
+    "phone": {
+      "title": "Phone",
+      "number": "+49 69 870090 400"
     },
     "hours": {
       "title": "Office Hours",
@@ -270,6 +274,8 @@
     "decline": "Decline"
   },
   "comingSoon": {
+    "maintenanceMode": "Maintenance Mode",
+    "availableSoon": "The website is currently in maintenance mode and will be available soon.",
     "title": "Coming Soon",
     "subtitle": "Something Exciting is on the Horizon",
     "description": "We're working on something special. Enter the password to get a sneak peek.",
@@ -385,7 +391,7 @@
     "intro": "RKR Epsilon is a registered financial services provider operating under German financial regulations. This page contains our legal disclosures and regulatory information.",
     "company": {
       "title": "Company Information",
-      "content": "RKR Epsilon Ltd.\nFrankfurt Tower 185\nFriedrich Ebert Anlage 35-38\n60307 Frankfurt am Main\nGermany"
+      "content": "RKR Epsilon Ltd.\nFrankfurt Tower 185\nFriedrich Ebert Anlage 35-38\n60327 Frankfurt am Main\nGermany"
     },
     "contactInfo": {
       "email": {
@@ -394,7 +400,7 @@
       },
       "phone": {
         "title": "Phone",
-        "content": "Monday – Friday: 9:00 AM – 6:00 PM CET"
+        "content": "+49 69 870090 400\nMonday – Friday: 9:00 AM – 6:00 PM CET"
       }
     },
     "regulatory": {
@@ -423,7 +429,7 @@
     },
     "story": {
       "title": "Our Story",
-      "paragraph1": "Founded over two decades ago, RKR Epsilon was built on a simple yet powerful principle: that exceptional financial outcomes are achieved through deep client relationships, rigorous analysis, and unwavering commitment to long-term value creation.",
+      "paragraph1": "Founded in 2017, RKR Epsilon was built on a simple yet powerful principle: that exceptional financial outcomes are achieved through deep client relationships, rigorous analysis, and unwavering commitment to long-term value creation.",
       "paragraph2": "Today, we stand as a trusted partner to discerning clients worldwide, combining the personalized attention of a boutique firm with the sophisticated capabilities of a global institution."
     },
     "team": {
@@ -435,6 +441,61 @@
       "title": "Our Approach",
       "paragraph1": "We take a holistic view of wealth management, considering not just financial returns but also risk management, tax efficiency, legacy planning, and alignment with your personal values and long-term vision.",
       "paragraph2": "Every strategy we develop is grounded in comprehensive research, rigorous due diligence, and a deep understanding of global markets. We don't follow trends—we identify opportunities that others overlook."
+    },
+    "teamSection": {
+      "title": "Meet Our Leadership",
+      "description": "Our leadership team brings together decades of experience in investment banking, asset management, and corporate advisory to guide our firm's strategic direction.",
+      "members": {
+        "ceo": {
+          "name": "Scott Morgan",
+          "role": "Chief Executive Officer",
+          "bio": "Over 25 years of experience in investment banking and strategic advisory. Previously led major M&A transactions at leading global institutions."
+        },
+        "cio": {
+          "name": "Dr. Thomas Kramer",
+          "role": "Chief Investment Officer",
+          "bio": "Expert in portfolio management and quantitative analysis with a proven track record of delivering consistent returns across market cycles."
+        },
+        "cfo": {
+          "name": "Marcus Weber",
+          "role": "Chief Financial Officer",
+          "bio": "Extensive background in corporate finance and risk management. Ensures operational excellence and regulatory compliance."
+        },
+        "director": {
+          "name": "Stefan Hartmann",
+          "role": "Director of Client Relations",
+          "bio": "Dedicated to building lasting client relationships and ensuring exceptional service delivery across all client touchpoints."
+        }
+      },
+      "values": {
+        "title": "Our Core Values",
+        "description": "The principles that guide every decision we make and every relationship we build.",
+        "integrity": {
+          "title": "Integrity",
+          "description": "We uphold the highest ethical standards in all our dealings, earning trust through transparency and honesty."
+        },
+        "excellence": {
+          "title": "Excellence",
+          "description": "We pursue excellence relentlessly, delivering results that exceed expectations through rigorous analysis and execution."
+        },
+        "collaboration": {
+          "title": "Collaboration",
+          "description": "We work as one team, combining diverse expertise to create innovative solutions for our clients' complex challenges."
+        }
+      }
+    }
+  },
+  "maintenance": {
+    "intro": "Our systems undergo regular maintenance to ensure optimal performance and security.",
+    "info": {
+      "title": "Maintenance Information",
+      "content": "Scheduled maintenance is typically performed outside business hours. For urgent inquiries during maintenance windows, please contact us directly."
+    }
+  },
+  "maintenancePage": {
+    "hero": {
+      "title": "Maintenance",
+      "description": "Information about scheduled maintenance and system updates."
     }
   }
 }

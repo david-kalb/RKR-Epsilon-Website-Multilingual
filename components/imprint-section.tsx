@@ -19,7 +19,7 @@ export function ImprintSection() {
           <div className="border-l-4 border-[var(--gold-accent)] pl-6">
             <div className="flex items-start gap-4 mb-4">
               <Building2 className="w-6 h-6 text-[var(--gold-accent)] mt-1 flex-shrink-0" />
-              <div>
+              <div className="w-full">
                 <h2 className="font-serif text-2xl font-bold text-[var(--navy-dark)] mb-3">{t("company.title")}</h2>
                 <p className="text-[var(--foreground)]/80 leading-relaxed whitespace-pre-line">
                   {t("company.content")}
@@ -37,7 +37,7 @@ export function ImprintSection() {
                   <h3 className="font-serif text-xl font-bold text-[var(--navy-dark)] mb-2">
                     {t("contactInfo.email.title")}
                   </h3>
-                  <p className="text-[var(--foreground)]/80">{t("contactInfo.email.content")}</p>
+                  <p className="text-[var(--foreground)]/80 whitespace-pre-line">{t("contactInfo.email.content")}</p>
                 </div>
               </div>
             </div>

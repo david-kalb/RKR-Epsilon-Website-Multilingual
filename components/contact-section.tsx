@@ -70,6 +70,15 @@ export function ContactSection() {
               </div>
 
               <div>
+                <h4 className="font-medium text-[#3a4455] mb-2">{t("phone.title")}</h4>
+                <p className="text-[#3a4455]/70">
+                  <a href={`tel:${t("phone.number").replace(/\s/g, "")}`} className="hover:text-[#c9a961] transition-colors">
+                    {t("phone.number")}
+                  </a>
+                </p>
+              </div>
+
+              <div>
                 <h4 className="font-medium text-[#3a4455] mb-2">{t("hours.title")}</h4>
                 <p className="text-[#3a4455]/70">
                   {t("hours.line1")}

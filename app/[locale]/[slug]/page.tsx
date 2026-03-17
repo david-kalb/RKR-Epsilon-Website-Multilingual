@@ -10,6 +10,10 @@ import { FaqSection } from "@/components/faq-section"
 import { PrivacySection } from "@/components/privacy-section"
 import { TermsSection } from "@/components/terms-section"
 import { ImprintSection } from "@/components/imprint-section"
+import { DepotApplicationTermsPageHero } from "@/components/depot-application-terms-page-hero"
+import { DepotApplicationTermsSection } from "@/components/depot-application-terms-section"
+import { MaintenancePageHero } from "@/components/maintenance-page-hero"
+import { MaintenanceSection } from "@/components/maintenance-section"
 import { ServicesPageHero } from "@/components/services-page-hero"
 import { ServicesDetailSection } from "@/components/services-detail-section"
 import { AboutPageHero } from "@/components/about-page-hero"
@@ -74,6 +78,20 @@ const pageMetadata: Record<PageKey, { title: Record<"en" | "de", string>; descri
       de: "Lesen Sie die Geschäftsbedingungen für die Nutzung der Dienstleistungen von RKR Epsilon."
     }
   },
+  "depot-application-terms": {
+    title: { en: "Depot Application Terms | RKR Epsilon", de: "AGB Depotantrag | RKR Epsilon" },
+    description: {
+      en: "General conditions for the depot application and related account framework agreement.",
+      de: "Allgemeine Bedingungen für den Depotantrag und den zugehörigen Konto-/Depotrahmenvertrag.",
+    },
+  },
+  maintenance: {
+    title: { en: "Maintenance | RKR Epsilon", de: "Wartungsarbeiten | RKR Epsilon" },
+    description: {
+      en: "Information about scheduled maintenance and system updates.",
+      de: "Informationen zu geplanten Wartungsarbeiten und Systemaktualisierungen.",
+    },
+  },
   imprint: {
     title: { en: "Disclosures | RKR Epsilon", de: "Impressum | RKR Epsilon" },
     description: { 
@@ -93,6 +111,34 @@ const pageMetadata: Record<PageKey, { title: Record<"en" | "de", string>; descri
     description: { 
       en: "Stay tuned for new features and services from RKR Epsilon.",
       de: "Bleiben Sie gespannt auf neue Funktionen und Dienstleistungen von RKR Epsilon."
+    }
+  },
+  "consumer-information-ffg": {
+    title: { en: "Consumer Information FFG | RKR Epsilon", de: "Verbraucherinformation FFG | RKR Epsilon" },
+    description: { 
+      en: "Consumer information according to the Financial Services Distance Marketing Act (FFG).",
+      de: "Verbraucherinformation gemäß Fernabsatzgesetz für Finanzdienstleistungen (FFG)."
+    }
+  },
+  "contract-copy-and-price-sheet": {
+    title: { en: "Contract Copy and Price Sheet | RKR Epsilon", de: "Vertragsausfertigung und Preisblatt | RKR Epsilon" },
+    description: { 
+      en: "Contract documentation and price sheet information.",
+      de: "Vertragsunterlagen und Preisinformationen."
+    }
+  },
+  "opening-and-acceptance-times": {
+    title: { en: "Opening and Acceptance Times | RKR Epsilon", de: "Öffnungs- und Annahmezeiten | RKR Epsilon" },
+    description: { 
+      en: "Business hours and order acceptance times.",
+      de: "Geschäftszeiten und Auftragsannahmezeiten."
+    }
+  },
+  "price-sheet": {
+    title: { en: "Price Sheet | RKR Epsilon", de: "Preisverzeichnis | RKR Epsilon" },
+    description: { 
+      en: "Detailed price sheet for our services and products.",
+      de: "Detailliertes Preisverzeichnis für unsere Dienstleistungen und Produkte."
     }
   }
 }
@@ -228,6 +274,17 @@ export default async function Page({ params }: Props) {
         <Navigation />
         <TermsPageHero />
         <TermsSection />
+        <Footer />
+      </main>
+    )
+  }
+
+  if (pageKey === "maintenance") {
+    return (
+      <main className="min-h-screen">
+        <Navigation />
+        <MaintenancePageHero />
+        <MaintenanceSection />
         <Footer />
       </main>
     )

@@ -8,6 +8,12 @@ export type PageKey =
   | "imprint"
   | "coming-soon"
   | "faq"
+  | "maintenance"
+  | "depot-application-terms"
+  | "consumer-information-ffg"
+  | "contract-copy-and-price-sheet"
+  | "opening-and-acceptance-times"
+  | "price-sheet"
 
 export const slugMap: Record<PageKey, Record<"en" | "de", string>> = {
   home: {
@@ -34,6 +40,10 @@ export const slugMap: Record<PageKey, Record<"en" | "de", string>> = {
     en: "terms-of-service",
     de: "nutzungsbedingungen",
   },
+  maintenance: {
+    en: "maintenance",
+    de: "wartungsarbeiten",
+  },
   imprint: {
     en: "disclosures",
     de: "impressum",
@@ -45,6 +55,26 @@ export const slugMap: Record<PageKey, Record<"en" | "de", string>> = {
   faq: {
     en: "faq",
     de: "haeufige-fragen",
+  },
+  "depot-application-terms": {
+    en: "depot-application-terms",
+    de: "agb-depotantrag",
+  },
+  "consumer-information-ffg": {
+    en: "consumer-information-ffg",
+    de: "verbraucherinformation-ffg",
+  },
+  "contract-copy-and-price-sheet": {
+    en: "contract-copy-and-price-sheet",
+    de: "vertragsausfertigung-und-preisblatt",
+  },
+  "opening-and-acceptance-times": {
+    en: "opening-and-acceptance-times",
+    de: "oeffnungs-und-annahmezeiten",
+  },
+  "price-sheet": {
+    en: "price-sheet",
+    de: "preisverzeichnis",
   },
 }
 

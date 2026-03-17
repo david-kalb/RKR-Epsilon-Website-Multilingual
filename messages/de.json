@@ -207,7 +207,7 @@
   },
   "parallaxAbout": {
     "heading": "Ein Vermächtnis von Vertrauen und Innovation",
-    "text": "Seit über zwei Jahrzehnten steht RKR Epsilon an der Spitze der Investment-Banking-Innovation und bewahrt gleichzeitig die zeitlosen Werte von Integrität, Diskretion und kundenorientiertem Service. Unser Team verbindet bewährte Expertise mit frischen Perspektiven, um die sich wandelnde Finanzlandschaft erfolgreich zu navigieren und außergewöhnliche Ergebnisse für unsere Kunden zu erzielen."
+    "text": "Seit 2017 steht RKR Epsilon an der Spitze der Investment-Banking-Innovation und bewahrt gleichzeitig die zeitlosen Werte von Integrität, Diskretion und kundenorientiertem Service. Unser Team verbindet bewährte Expertise mit frischen Perspektiven, um die sich wandelnde Finanzlandschaft erfolgreich zu navigieren und außergewöhnliche Ergebnisse für unsere Kunden zu erzielen."
   },
   "philosophy": {
     "title": "Unsere Philosophie",
@@ -234,7 +234,11 @@
       "title": "Adresse",
       "line1": "RKR Epsilon Ltd.",
       "line2": "Frankfurt Tower 185, Friedrich Ebert Anlage 35-38",
-      "line3": "60307 Frankfurt am Main, Deutschland"
+      "line3": "60327 Frankfurt am Main, Deutschland"
+    },
+    "phone": {
+      "title": "Telefon",
+      "number": "+49 69 870090 400"
     },
     "hours": {
       "title": "Bürozeiten",
@@ -270,6 +274,8 @@
     "decline": "Ablehnen"
   },
   "comingSoon": {
+    "maintenanceMode": "Wartungsmodus",
+    "availableSoon": "Die Website befindet sich im Wartungsmodus und ist bald verfügbar.",
     "title": "Bald verfügbar",
     "subtitle": "Etwas Außergewöhnliches entsteht",
     "description": "Wir arbeiten an etwas Besonderem. Geben Sie das Passwort ein, um einen ersten Blick zu erhalten.",
@@ -385,7 +391,7 @@
     "intro": "RKR Epsilon ist ein registrierter Finanzdienstleister, der nach deutschen Finanzvorschriften tätig ist. Diese Seite enthält unsere gesetzlich vorgeschriebenen Angaben und regulatorischen Informationen.",
     "company": {
       "title": "Unternehmensinformationen",
-      "content": "RKR Epsilon Ltd.\nFrankfurt Tower 185\nFriedrich Ebert Anlage 35-38\n60307 Frankfurt am Main\nDeutschland"
+      "content": "RKR Epsilon Ltd.\nFrankfurt Tower 185\nFriedrich Ebert Anlage 35-38\n60327 Frankfurt am Main\nDeutschland"
     },
     "contactInfo": {
       "email": {
@@ -394,7 +400,7 @@
       },
       "phone": {
         "title": "Telefon",
-        "content": "Montag – Freitag: 9:00 – 18:00 Uhr MEZ"
+        "content": "+49 69 870090 400\nMontag – Freitag: 9:00 – 18:00 Uhr MEZ"
       }
     },
     "regulatory": {
@@ -423,7 +429,7 @@
     },
     "story": {
       "title": "Unsere Geschichte",
-      "paragraph1": "Vor über zwei Jahrzehnten gegründet, basiert RKR Epsilon auf einem einfachen, aber kraftvollen Prinzip: dass außergewöhnliche finanzielle Ergebnisse durch tiefe Kundenbeziehungen, rigorose Analysen und unerschütterliches Engagement für langfristige Wertschöpfung erreicht werden.",
+      "paragraph1": "2017 gegründet, basiert RKR Epsilon auf einem einfachen, aber kraftvollen Prinzip: dass außergewöhnliche finanzielle Ergebnisse durch tiefe Kundenbeziehungen, rigorose Analysen und unerschütterliches Engagement für langfristige Wertschöpfung erreicht werden.",
       "paragraph2": "Heute stehen wir als vertrauenswürdiger Partner für anspruchsvolle Kunden weltweit und verbinden die persönliche Betreuung einer Boutique-Firma mit den hochentwickelten Fähigkeiten einer globalen Institution."
     },
     "team": {
@@ -435,6 +441,61 @@
       "title": "Unser Ansatz",
       "paragraph1": "Wir verfolgen einen ganzheitlichen Ansatz im Vermögensmanagement und berücksichtigen nicht nur finanzielle Renditen, sondern auch Risikomanagement, Steuereffizienz, Nachlassplanung und die Übereinstimmung mit Ihren persönlichen Werten und Ihrer langfristigen Vision.",
       "paragraph2": "Jede von uns entwickelte Strategie basiert auf umfassender Forschung, rigoroser Due Diligence und einem fundierten Verständnis globaler Märkte. Wir folgen keinen Trends – wir identifizieren Chancen, die andere übersehen."
+    },
+    "teamSection": {
+      "title": "Unser Führungsteam",
+      "description": "Unser Führungsteam vereint jahrzehntelange Erfahrung in Investment Banking, Vermögensverwaltung und Unternehmensberatung, um die strategische Ausrichtung unserer Firma zu gestalten.",
+      "members": {
+        "ceo": {
+          "name": "Scott Morgan",
+          "role": "Geschäftsführer",
+          "bio": "Über 25 Jahre Erfahrung im Investment Banking und strategischer Beratung. Leitete zuvor bedeutende M&A-Transaktionen bei führenden globalen Institutionen."
+        },
+        "cio": {
+          "name": "Dr. Thomas Kramer",
+          "role": "Chief Investment Officer",
+          "bio": "Experte für Portfoliomanagement und quantitative Analyse mit nachgewiesener Erfolgsbilanz bei der Erzielung konstanter Renditen über Marktzyklen hinweg."
+        },
+        "cfo": {
+          "name": "Marcus Weber",
+          "role": "Finanzvorstand",
+          "bio": "Umfassende Erfahrung in Unternehmensfinanzierung und Risikomanagement. Gewährleistet operative Exzellenz und regulatorische Compliance."
+        },
+        "director": {
+          "name": "Stefan Hartmann",
+          "role": "Leiter Kundenbeziehungen",
+          "bio": "Engagiert im Aufbau langfristiger Kundenbeziehungen und der Gewährleistung erstklassiger Servicequalität an allen Kundenkontaktpunkten."
+        }
+      },
+      "values": {
+        "title": "Unsere Grundwerte",
+        "description": "Die Prinzipien, die jede unserer Entscheidungen und jede Beziehung leiten, die wir aufbauen.",
+        "integrity": {
+          "title": "Integrität",
+          "description": "Wir halten die höchsten ethischen Standards in all unseren Geschäften ein und verdienen Vertrauen durch Transparenz und Ehrlichkeit."
+        },
+        "excellence": {
+          "title": "Exzellenz",
+          "description": "Wir streben unermüdlich nach Exzellenz und liefern Ergebnisse, die durch rigorose Analyse und Umsetzung Erwartungen übertreffen."
+        },
+        "collaboration": {
+          "title": "Zusammenarbeit",
+          "description": "Wir arbeiten als ein Team zusammen und kombinieren vielfältige Expertise, um innovative Lösungen für die komplexen Herausforderungen unserer Kunden zu schaffen."
+        }
+      }
+    }
+  },
+  "maintenance": {
+    "intro": "Unsere Systeme werden regelmäßig gewartet, um optimale Leistung und Sicherheit zu gewährleisten.",
+    "info": {
+      "title": "Wartungsinformationen",
+      "content": "Geplante Wartungsarbeiten werden in der Regel außerhalb der Geschäftszeiten durchgeführt. Bei dringenden Anfragen während der Wartungszeiten kontaktieren Sie uns bitte direkt."
+    }
+  },
+  "maintenancePage": {
+    "hero": {
+      "title": "Wartungsarbeiten",
+      "description": "Informationen zu geplanten Wartungsarbeiten und Systemaktualisierungen."
     }
   }
 }
